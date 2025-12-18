@@ -21,7 +21,7 @@ const PersonalizedTravelRecommendationsInputSchema = z.object({
 export type PersonalizedTravelRecommendationsInput = z.infer<typeof PersonalizedTravelRecommendationsInputSchema>;
 
 const PersonalizedTravelRecommendationsOutputSchema = z.object({
-  recommendations: z.string().describe('A list of personalized travel recommendations for New Delhi.'),
+  recommendations: z.string().describe('A list of personalized travel recommendations for New Delhi, formatted as bullet points.'),
 });
 export type PersonalizedTravelRecommendationsOutput = z.infer<typeof PersonalizedTravelRecommendationsOutputSchema>;
 
@@ -41,7 +41,7 @@ const personalizedTravelRecommendationsPrompt = ai.definePrompt({
 
   The tourist is interested in: {{interests}}
 
-  Provide a detailed list of recommendations, including specific places to visit, cuisines to explore, and experiences to enjoy. Consider any relevant holidays, festivals, or events happening during this time of year. Format the output as a paragraph.
+  Provide a detailed list of recommendations, including specific places to visit, cuisines to explore, and experiences to enjoy. Consider any relevant holidays, festivals, or events happening during this time of year. Format the output as a list of bullet points (using markdown).
 `,
 });
 

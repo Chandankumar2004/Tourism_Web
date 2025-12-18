@@ -10,7 +10,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { Terminal } from "lucide-react";
+import { Terminal, CheckCircle2 } from "lucide-react";
 
 const initialState = {
   message: null,
@@ -27,13 +27,37 @@ function SubmitButton() {
   );
 }
 
+function RecommendationsDisplay({ recommendations }: { recommendations: string }) {
+  const recommendationList = recommendations
+    .split('\n')
+    .map(item => item.trim())
+    .filter(item => item.startsWith('*') || item.startsWith('-'))
+    .map(item => item.substring(1).trim());
+
+  if (recommendationList.length === 0) {
+    return <p className="text-foreground/90 leading-relaxed">{recommendations}</p>;
+  }
+
+  return (
+    <ul className="space-y-3">
+      {recommendationList.map((rec, index) => (
+        <li key={index} className="flex items-start gap-3">
+          <CheckCircle2 className="w-5 h-5 text-primary mt-1 shrink-0" />
+          <span className="text-foreground/90">{rec}</span>
+        </li>
+      ))}
+    </ul>
+  )
+}
+
+
 export function RecommendationTool() {
   const [state, formAction] = useActionState(getTravelRecommendations, initialState);
   const formRef = useRef<HTMLFormElement>(null);
 
   useEffect(() => {
     if (state.message === "success") {
-      formRef.current?.reset();
+      // Don't reset the form, so user can see their inputs
     }
   }, [state.message]);
 
@@ -88,7 +112,7 @@ export function RecommendationTool() {
                  <CardDescription>Based on your interests for the selected month.</CardDescription>
                </CardHeader>
                <CardContent>
-                 <p className="text-foreground/90 leading-relaxed">{state.recommendations}</p>
+                 <RecommendationsDisplay recommendations={state.recommendations} />
                </CardContent>
              </Card>
            </div>
