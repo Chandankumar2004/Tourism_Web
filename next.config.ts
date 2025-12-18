@@ -46,11 +46,19 @@ const nextConfig: NextConfig = {
         hostname: 'delhitourism.travel',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'sceneloc8.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
 };
 
 export default nextConfig;
+
+    
 
     
