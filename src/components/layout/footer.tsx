@@ -15,7 +15,8 @@ const exploreLinks = [
     { href: "/explore", label: "Food & Cuisine" },
     { href: "/explore", label: "Culture" },
     { href: "/explore", label: "Shopping" },
-    { href: "/explore", label: "Travel Guide" },
+    { href: "/metro-guide", label: "Metro Guide" },
+    { href: "/explore?tab=guide", label: "Travel Guide" },
 ];
 
 const socialLinks = [
