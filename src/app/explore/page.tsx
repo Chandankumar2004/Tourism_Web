@@ -13,6 +13,7 @@ import { TramFront, ShieldCheck, Smile, Clock } from "lucide-react";
 import { useSearchParams } from 'next/navigation';
 import { useEffect, useState } from "react";
 import { SafetyTipsDialog } from "@/components/explore/safety-tips-dialog";
+import { EtiquetteDialog } from "@/components/explore/etiquette-dialog";
 
 const travelTips = [
   {
@@ -36,6 +37,7 @@ const travelTips = [
   {
     icon: <Smile className="w-6 h-6 text-primary" />,
     title: "Local Etiquette",
+    id: "local-etiquette",
     content: "Dress modestly when visiting religious sites. A simple 'Namaste' (hello) with palms pressed together is a respectful greeting. Bargaining is common in markets."
   }
 ];
@@ -119,6 +121,9 @@ export default function ExplorePage() {
                   if (tip.id === 'safety-tips') {
                     return <SafetyTipsDialog key={tip.title} tip={tip} />;
                   }
+                  if (tip.id === 'local-etiquette') {
+                    return <EtiquetteDialog key={tip.title} tip={tip} />;
+                  }
 
                   const card = (
                     <Card key={tip.title} className="bg-card h-full">
@@ -150,3 +155,5 @@ export default function ExplorePage() {
     </div>
   );
 }
+
+    

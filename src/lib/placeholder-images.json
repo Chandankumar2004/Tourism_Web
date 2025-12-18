@@ -147,7 +147,7 @@
     {
       "id": "culture-sufi-tradition",
       "description": "Musicians performing Qawwali",
-      "imageUrl": "https://images.unsplash.com/photo-1643098979608-1b22614abe88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdWZpJTIwbXVzaWN8ZW58MHx8fHwxNzY2MDQ2NDYxfDA&ixlib=rb-4.1_0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1643098979608-1b22614abe88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdWZpJTIwbXVzaWN8ZW58MHx8fHwxNzY2MDQ2NDYxfDA&ixlibrb-4.1_0&q=80&w=1080",
       "imageHint": "sufi music"
     },
     {
@@ -167,6 +167,18 @@
       "description": "A deer at the National Zoological Park in Delhi.",
       "imageUrl": "https://delhitourism.travel/images/places-to-visit/headers/national-zoological-park-delhi-entry-fee-timings-holidays-reviews-header.jpg",
       "imageHint": "delhi zoo"
+    },
+    {
+      "id": "etiquette-namaste",
+      "description": "Hands gesture for Namaste greeting",
+      "imageUrl": "https://images.unsplash.com/photo-1761247981250-a5909d59b071?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxuYW1hc3RlJTIwaGFuZHN8ZW58MHx8fHwxNzY2MDU2NjQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "namaste hands"
+    },
+    {
+      "id": "etiquette-dress",
+      "description": "Modest traditional Indian clothing",
+      "imageUrl": "https://images.unsplash.com/photo-1610048616025-11a3dcc9fd0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxpbmRpYW4lMjBkcmVzc3xlbnwwfHx8fDE3NjYwNTY2NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian dress"
     }
   ]
 }
