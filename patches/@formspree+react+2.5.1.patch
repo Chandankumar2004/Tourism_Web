@@ -1,26 +1,23 @@
 diff --git a/node_modules/@formspree/react/package.json b/node_modules/@formspree/react/package.json
 index 32c140c..a3a2862 100644
---- a/node_modules/@formspree/react/package.json
-+++ b/node_modules/@formspree/react/package.json
+b/node_modules/@formspree/react/package.json
 @@ -34,7 +34,7 @@
      "@formspree/core": "^0.11.1"
    },
    "peerDependencies": {
--    "react": "^16.8 || ^17.0 || ^18.0",
--    "react-dom": "^16.8 || ^17.0 || ^18.0"
-+    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0",
-+    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0"
+
+    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0",
+    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0"
    }
  }
 diff --git a/node_modules/@formspree/react/dist/index.mjs b/node_modules/@formspree/react/dist/index.mjs
 index 2893f41..599a0eb 100644
---- a/node_modules/@formspree/react/dist/index.mjs
-+++ b/node_modules/@formspree/react/dist/index.mjs
+
+b/node_modules/@formspree/react/dist/index.mjs
 @@ -1,5 +1,5 @@
--import { useReducer, useCallback, useEffect, useMemo, Fragment } from 'react';
--import { createPortal } from 'react-dom';
-+import { useReducer, useCallback, useEffect, useMemo, Fragment, useFormState } from 'react';
-+import { createPortal, useFormState as useFormState$1 } from 'react-dom';
+
+import { useReducer, useCallback, useEffect, useMemo, Fragment, useFormState } from 'react';
+import { createPortal, useFormState as useFormState$1 } from 'react-dom';
  import { Client, isServer } from '@formspree/core';
  
  function ownKeys(object, enumerableOnly) {
@@ -28,12 +25,10 @@ index 2893f41..599a0eb 100644
    var startSubmitting = function startSubmitting() {
      return dispatch({
        type: 'SUBMITTING'
--    });
--  };
-+    }); 
-+  }; 
-+
-+  var useFormState = useFormState$1 || useFormState;
+    }); 
+  }; 
+
+  var useFormState = useFormState$1 || useFormState;
  
    var handleSubmit = useCallback(function (eventOrData) {
      var data = {};
