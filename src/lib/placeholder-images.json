@@ -85,6 +85,12 @@
       "imageHint": "indian biryani"
     },
     {
+      "id": "food-chole-bhature",
+      "description": "A plate of Chole Bhature",
+      "imageUrl": "https://images.unsplash.com/photo-1606493394179-a72e81451551?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9sZSUyMGJoYXR1cmV8ZW58MHx8fHwxNzY5MDQ0NTYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chole bhature"
+    },
+    {
       "id": "market-chandni-chowk",
       "description": "A crowded street in Chandni Chowk",
       "imageUrl": "https://images.unsplash.com/photo-1713691132931-1cc66e362cdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZWxoaSUyMG1hcmtldHxlbnwwfHx8fDE3NjYwNDMzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -147,13 +153,13 @@
     {
       "id": "culture-sufi-tradition",
       "description": "Musicians performing Qawwali",
-      "imageUrl": "https://images.unsplash.com/photo-1643098979608-1b22614abe88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdWZpJTIwbXVzaWN8ZW58MHx8fHwxNzY2MDQ2NDYxfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1643098979608-1b22614abe88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdWZpJTIwbXVzaWN8ZW58MHx8fHwxNzY2MDQ2NDYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sufi music"
     },
     {
       "id": "culture-performing-arts",
       "description": "Classical Indian dance performance",
-      "imageUrl": "https://images.unsplash.com/photo-1588262279292-234958174542?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBjbGFzc2ljYWwlMjBkYW5jZXxlbnwwfHx8fDE3NjYwNDMzMjF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1588262279292-234958174542?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBjbGFzc2ljYWwlMjBkYW5jZXxlbnwwfHx8fDE3NjYwNDMzMjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "indian dance"
     }
   ]

@@ -68,6 +68,11 @@ export const FOODS = [
         id: "food-biryani",
         title: "Biryani",
         description: "A fragrant rice dish made with spices, meat or vegetables. A complete meal in itself."
+    },
+    {
+        id: "food-chole-bhature",
+        title: "Chole Bhature",
+        description: "A popular Punjabi dish consisting of spicy chickpeas (chole) and a soft, fluffy fried bread (bhature)."
     }
 ];
 
