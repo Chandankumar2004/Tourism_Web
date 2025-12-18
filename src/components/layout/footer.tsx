@@ -11,10 +11,10 @@ import { useToast } from "@/hooks/use-toast";
 
 const exploreLinks = [
     { href: "/", label: "Home" },
-    { href: "/explore", label: "Attractions" },
-    { href: "/explore", label: "Food & Cuisine" },
-    { href: "/explore", label: "Culture" },
-    { href: "/explore", label: "Shopping" },
+    { href: "/explore?tab=attractions", label: "Attractions" },
+    { href: "/explore?tab=food", label: "Food & Cuisine" },
+    { href: "/explore?tab=culture", label: "Culture" },
+    { href: "/explore?tab=shopping", label: "Shopping" },
     { href: "/metro-guide", label: "Metro Guide" },
     { href: "/explore?tab=guide", label: "Travel Guide" },
 ];
