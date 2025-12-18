@@ -60,9 +60,9 @@ export default function Home() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
               {highlights.map((item) => (
                 <Link key={item.title} href={item.href}>
-                  <Card className="text-center bg-card border-border/50 hover:shadow-lg transition-shadow h-full">
+                  <Card className="text-center bg-card border-border/50 hover:shadow-lg hover:shadow-primary/20 hover:border-primary transition-shadow h-full">
                     <CardHeader>
-                      <div className="mx-auto bg-primary/10 p-4 rounded-full w-fit">
+                      <div className="mx-auto bg-secondary p-4 rounded-full w-fit">
                         {item.icon}
                       </div>
                     </CardHeader>
@@ -77,7 +77,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="plan-trip" className="py-16 md:py-24 bg-secondary/50">
+        <section id="plan-trip" className="py-16 md:py-24 bg-secondary">
           <div className="container mx-auto px-4">
             <PlanTrip />
           </div>
@@ -91,7 +91,7 @@ export default function Home() {
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
                 Dive deeper into what Delhi has to offer. From iconic landmarks to hidden gems, your journey starts here.
               </p>
-              <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
+              <Button asChild size="lg" className="bg-[#EC4899] hover:bg-[#DB2777] text-white">
                 <Link href="/explore">
                   Discover Delhi's Treasures <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>

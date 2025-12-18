@@ -6,8 +6,6 @@ import { ArrowRight, Compass } from "lucide-react";
 
 export function Hero() {
   const indiaGateImg = PlaceHolderImages.find(p => p.id === 'hero-india-gate');
-  const rashtrapatiBhavanImg = PlaceHolderImages.find(p => p.id === 'hero-rashtrapati-bhavan');
-  const skylineImg = PlaceHolderImages.find(p => p.id === 'hero-skyline');
 
   return (
     <section className="relative h-[80vh] min-h-[500px] max-h-[700px] w-full flex items-center justify-center text-white">
@@ -23,18 +21,18 @@ export function Hero() {
           />
         )}
       </div>
-      <div className="absolute inset-0 bg-black/40 z-10"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-[rgba(109,40,217,0.75)] to-[rgba(0,0,0,0.4)] z-10"></div>
       
       <div className="relative z-20 text-center px-4">
-        <h1 className="text-4xl md:text-6xl font-headline font-bold mb-4 tracking-tight"
+        <h1 className="text-4xl md:text-6xl font-headline font-bold mb-4 tracking-tight text-white"
           style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.7)' }}>
           New Delhi
         </h1>
-        <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto" style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.7)' }}>
+        <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-[#EDE9FE]" style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.7)' }}>
           Where History Lives and the Nation Breathes
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
+          <Button asChild size="lg" className="bg-primary hover:bg-[#5B21B6]">
             <Link href="#discover">
               Discover Delhi <Compass className="ml-2 h-5 w-5" />
             </Link>

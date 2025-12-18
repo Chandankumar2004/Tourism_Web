@@ -26,7 +26,7 @@ const initialState: {
 function SubmitButton() {
   const { pending } = useFormStatus();
   return (
-    <Button type="submit" disabled={pending} className="w-full sm:w-auto bg-accent hover:bg-accent/90 text-accent-foreground">
+    <Button type="submit" disabled={pending} className="w-full sm:w-auto btn-submit">
       {pending ? 'Generating...' : 'Get Recommendations'}
     </Button>
   );
@@ -36,7 +36,7 @@ export function PlanTrip() {
   const [state, formAction] = useActionState(getTripRecommendations, initialState);
 
   return (
-    <Card className="max-w-4xl mx-auto">
+    <Card className="max-w-4xl mx-auto bg-card">
       <CardHeader className="text-center">
         <CardTitle className="text-3xl md:text-4xl font-headline flex items-center justify-center gap-3">
           <Lightbulb className="w-8 h-8 text-primary" />
