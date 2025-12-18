@@ -57,19 +57,19 @@
     {
       "id": "attraction-jantar-mantar",
       "description": "Jantar Mantar astronomical observatory in Delhi.",
-      "imageUrl": "https://images.unsplash.com/photo-1735369931195-84544e1d24ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxqYW50YXIlMjBtYW50YXJ8ZW58MHx8fHwxNzY2MDQ3MjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1674488329618-97a7a4c9f116?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxqYW50YXIlMjBtYW50YXIlMjBkZWxoaXxlbnwwfHx8fDE3NjYxNDEwNjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "jantar mantar"
     },
     {
       "id": "attraction-agrasen-ki-baoli",
       "description": "Agrasen ki Baoli, a historical stepwell in Delhi.",
-      "imageUrl": "https://images.unsplash.com/photo-1638183209148-e87c0c9bb6f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhZ3Jhc2VuJTIwa2klMjBiYW9saXxlbnwwfHx8fDE3NjYwNDc4OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "agrasen ki baoli"
+      "imageUrl": "https://images.unsplash.com/photo-1594228962553-d1446a032349?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhZ3Jhc2VuJTIwa2klMjBiYW9saXxlbnwwfHx8fDE3NjYxNDEwNjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "agrasen baoli"
     },
     {
       "id": "attraction-national-museum",
-      "description": "Artifacts on display at the National Museum, Delhi.",
-      "imageUrl": "https://images.unsplash.com/photo-1708317278725-3b490b76791b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxuYXRpb25hbCUyMG11c2V1bXxlbnwwfHx8fDE3NjYwNDcyMzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Front view of the National Museum building in New Delhi.",
+      "imageUrl": "https://images.unsplash.com/photo-1583310034844-142c67b9098c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYXRpb25hbCUyMG11c2V1bSUyMGRlbGhpfGVufDB8fHx8MTc2NjE0MTA2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "national museum"
     },
     {
@@ -81,7 +81,7 @@
     {
       "id": "food-parathas",
       "description": "Freshly made parathas",
-      "imageUrl": "https://images.unsplash.com/photo-1604382354936-07c5d9983d34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYXJhdGhhfGVufDB8fHx8MTc2NjE0MTEyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1668665793033-96b65f7c3272?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwYXJhdGhhfGVufDB8fHx8MTc2NjE0MTEyNnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "paratha"
     },
     {
@@ -99,7 +99,7 @@
     {
       "id": "food-chole-bhature",
       "description": "Plate of Chole Bhature",
-      "imageUrl": "https://images.unsplash.com/photo-1625348000497-285617c5b6b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9sZSUyMGJoYXR1cmV8ZW58MHx8fHwxNzY2MTQwODYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1606495147590-4c3746654b97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjaG9sZSUyMGJoYXR1cmV8ZW58MHx8fHwxNzY2MTQwODYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "chole bhature"
     },
     {
