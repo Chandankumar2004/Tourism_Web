@@ -68,6 +68,21 @@ export const FOODS = [
         id: "food-biryani",
         title: "Biryani",
         description: "A fragrant rice dish made with spices, meat or vegetables. A complete meal in itself."
+    },
+    {
+        id: "food-chole-bhature",
+        title: "Chole Bhature",
+        description: "A popular North Indian dish of fluffy deep-fried bread served with a spicy chickpea curry."
+    },
+    {
+        id: "food-pani-puri",
+        title: "Pani Puri",
+        description: "A popular street food snack consisting of a hollow, crispy-fried puffed ball that is filled with potato, chickpeas, onions, spices, and flavored water."
+    },
+    {
+        id: "food-samosa",
+        title: "Samosas",
+        description: "A fried or baked pastry with a savory filling, such as spiced potatoes, onions, peas, or lentils."
     }
 ];
 

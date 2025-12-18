@@ -85,6 +85,24 @@
       "imageHint": "indian biryani"
     },
     {
+      "id": "food-chole-bhature",
+      "description": "A serving of Chole Bhature",
+      "imageUrl": "https://images.unsplash.com/photo-1633943822097-9ca4bc91cc7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2hvbGUlMjBiaGF0dXJlfGVufDB8fHx8MTc2NjAzMzk2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chole bhature"
+    },
+    {
+      "id": "food-pani-puri",
+      "description": "A plate of Pani Puri",
+      "imageUrl": "https://images.unsplash.com/photo-1679934408676-73b4896063b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwYW5pJTIwcHVyaXxlbnwwfHx8fDE3NjU5OTY5OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pani puri"
+    },
+    {
+      "id": "food-samosa",
+      "description": "A plate of Samosas",
+      "imageUrl": "https://images.unsplash.com/photo-1714799263348-41c7245cd714?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2Ftb3NhfGVufDB8fHx8MTc2NjA0MjA4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "samosa"
+    },
+    {
       "id": "market-chandni-chowk",
       "description": "A crowded street in Chandni Chowk",
       "imageUrl": "https://images.unsplash.com/photo-1713691132931-1cc66e362cdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZWxoaSUyMG1hcmtldHxlbnwwfHx8fDE3NjYwNDMzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
