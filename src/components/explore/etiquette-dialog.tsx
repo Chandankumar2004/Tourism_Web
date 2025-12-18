@@ -10,7 +10,7 @@ import {
   AlertDialogFooter,
   AlertDialogCancel
 } from "@/components/ui/alert-dialog";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle, Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/card";
 import { ShoppingBag, CheckCircle2 } from "lucide-react";
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
@@ -33,7 +33,7 @@ interface EtiquetteDialogProps {
 
 export function EtiquetteDialog({ tip }: EtiquetteDialogProps) {
   const namasteImg = PlaceHolderImages.find(p => p.id === 'etiquette-namaste');
-  const dressImg = PlaceHolderImages.find(p => p.id === 'etiquette-dress');
+  const dressImages = PlaceHolderImages.filter(p => p.id.startsWith('etiquette-dress-'));
 
   return (
     <AlertDialog>
@@ -69,13 +69,27 @@ export function EtiquetteDialog({ tip }: EtiquetteDialogProps) {
                 <p className="text-sm text-muted-foreground">A simple 'Namaste' with palms pressed together and a slight bow is a respectful traditional greeting for both hello and goodbye.</p>
               </div>
             )}
-            {dressImg && (
-              <div className="space-y-3">
+            <div className="space-y-3">
                 <h4 className="font-headline text-lg font-semibold text-foreground">Dressing Modestly</h4>
-                 <Image src={dressImg.imageUrl} alt={dressImg.description} data-ai-hint={dressImg.imageHint} width={400} height={300} className="rounded-lg shadow-md object-cover" />
-                <p className="text-sm text-muted-foreground">Especially when visiting religious sites, it's respectful to cover your shoulders and knees. Loose-fitting clothing is also more comfortable in the climate.</p>
+                 <Carousel className="w-full max-w-sm mx-auto">
+                  <CarouselContent>
+                    {dressImages.map((image) => (
+                      <CarouselItem key={image.id}>
+                        <div className="p-1">
+                          <Card className="overflow-hidden">
+                            <CardContent className="flex aspect-square items-center justify-center p-0">
+                               <Image src={image.imageUrl} alt={image.description} data-ai-hint={image.imageHint} width={400} height={400} className="rounded-lg shadow-md object-cover w-full h-full" />
+                            </CardContent>
+                          </Card>
+                        </div>
+                      </CarouselItem>
+                    ))}
+                  </CarouselContent>
+                  <CarouselPrevious />
+                  <CarouselNext />
+                </Carousel>
+                <p className="text-sm text-muted-foreground text-center">Especially when visiting religious sites, it's respectful to cover your shoulders and knees. Loose-fitting clothing is also more comfortable in the climate.</p>
               </div>
-            )}
           </div>
           <div>
             <h4 className="font-headline text-lg font-semibold text-foreground flex items-center gap-2 mb-3">

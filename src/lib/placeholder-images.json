@@ -133,6 +133,12 @@
       "imageHint": "colonial architecture"
     },
     {
+      "id": "culture-sufi-tradition",
+      "description": "Musicians performing Qawwali",
+      "imageUrl": "https://images.unsplash.com/photo-1643098979608-1b22614abe88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdWZpJTIwbXVzaWN8ZW58MHx8fHwxNzY2MDQ2NDYxfDA&ixlibrb-4.1_0&q=80&w=1080",
+      "imageHint": "sufi music"
+    },
+    {
       "id": "culture-museum",
       "description": "Inside a museum in Delhi",
       "imageUrl": "https://images.unsplash.com/photo-1737642256355-af3ecc10c5da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtdXNldW0lMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjU5NTExOTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -143,12 +149,6 @@
       "description": "People celebrating a festival in Delhi",
       "imageUrl": "https://images.unsplash.com/photo-1553334490-011441d86dbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpbmRpYW4lMjBmZXN0aXZhbHxlbnwwfHx8fDE3NjU5ODI1MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "indian festival"
-    },
-    {
-      "id": "culture-sufi-tradition",
-      "description": "Musicians performing Qawwali",
-      "imageUrl": "https://images.unsplash.com/photo-1643098979608-1b22614abe88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdWZpJTIwbXVzaWN8ZW58MHx8fHwxNzY2MDQ2NDYxfDA&ixlibrb-4.1_0&q=80&w=1080",
-      "imageHint": "sufi music"
     },
     {
       "id": "food-chole-bhature",
@@ -175,10 +175,64 @@
       "imageHint": "namaste hands"
     },
     {
-      "id": "etiquette-dress",
-      "description": "Modest traditional Indian clothing",
-      "imageUrl": "https://images.unsplash.com/photo-1610048616025-11a3dcc9fd0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxpbmRpYW4lMjBkcmVzc3xlbnwwfHx8fDE3NjYwNTY2NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "indian dress"
+      "id": "etiquette-dress-1",
+      "description": "Young girl in traditional Indian dress",
+      "imageUrl": "https://images.unsplash.com/photo-1581841899040-8b5e38bae033?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBjaGlsZHxlbnwwfHx8fDE3NjYwNTcwMDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian child"
+    },
+    {
+      "id": "etiquette-dress-2",
+      "description": "Young boy in traditional Indian attire",
+      "imageUrl": "https://images.unsplash.com/photo-1524069290683-0457abfe42c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpbmRpYW4lMjBjaGlsZHxlbnwwfHx8fDE3NjYwNTcwMDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian child"
+    },
+    {
+      "id": "etiquette-dress-3",
+      "description": "Teenage girl in a modest salwar kameez",
+      "imageUrl": "https://images.unsplash.com/photo-1573165850883-9b0e18c44bd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxpbmRpYW4lMjB3b21hbnxlbnwwfHx8fDE3NjYwMzk2Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian woman"
+    },
+    {
+      "id": "etiquette-dress-4",
+      "description": "Teenage boy in a kurta",
+      "imageUrl": "https://images.unsplash.com/photo-1618926749434-0578ceecdfab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxpbmRpYW4lMjBtYW58ZW58MHx8fHwxNzY2MDM5Njc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian man"
+    },
+    {
+      "id": "etiquette-dress-5",
+      "description": "Woman in a traditional saree",
+      "imageUrl": "https://images.unsplash.com/photo-1618245472177-2a74ad3b994a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxpbmRpYW4lMjB3b21hbnxlbnwwfHx8fDE3NjYwMzk2Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian woman"
+    },
+    {
+      "id": "etiquette-dress-6",
+      "description": "Man in a formal sherwani",
+      "imageUrl": "https://images.unsplash.com/photo-1729157661483-ed21901ed892?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxpbmRpYW4lMjBtYW58ZW58MHx8fHwxNzY2MDM5Njc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian man"
+    },
+    {
+      "id": "etiquette-dress-7",
+      "description": "Middle-aged woman in a simple, elegant saree",
+      "imageUrl": "https://images.unsplash.com/photo-1626193082710-a16206f819f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpbmRpYW4lMjB3b21hbnxlbnwwfHx8fDE3NjYwMzk2Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian woman"
+    },
+    {
+      "id": "etiquette-dress-8",
+      "description": "Middle-aged man in a kurta pajama",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1571367034861-e6729ad9c2d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBtYW58ZW58MHx8fHwxNzY2MDM5Njc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian man"
+    },
+    {
+      "id": "etiquette-dress-9",
+      "description": "Elderly woman in traditional attire",
+      "imageUrl": "https://images.unsplash.com/photo-1616286608358-0e1b143f7d2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlbGRlcmx5JTIwd29tYW58ZW58MHx8fHwxNzY1OTU3NDA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "elderly woman"
+    },
+    {
+      "id": "etiquette-dress-10",
+      "description": "Elderly man in a dhoti and kurta",
+      "imageUrl": "https://images.unsplash.com/photo-1529805059949-9e3d27512bbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlbGRlcmx5JTIwbWFufGVufDB8fHx8MTc2NjAzNjAwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "elderly man"
     }
   ]
 }
