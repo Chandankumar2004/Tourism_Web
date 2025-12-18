@@ -1,7 +1,7 @@
 "use client";
 
-import { useFormState, useFormStatus } from "react-dom";
-import { useEffect, useRef } from "react";
+import { useActionState, useEffect, useRef } from "react";
+import { useFormStatus } from "react-dom";
 import { getTravelRecommendations } from "@/app/actions";
 import { MONTHS } from "@/lib/constants";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
@@ -28,7 +28,7 @@ function SubmitButton() {
 }
 
 export function RecommendationTool() {
-  const [state, formAction] = useFormState(getTravelRecommendations, initialState);
+  const [state, formAction] = useActionState(getTravelRecommendations, initialState);
   const formRef = useRef<HTMLFormElement>(null);
 
   useEffect(() => {
