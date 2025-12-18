@@ -56,21 +56,21 @@
     },
     {
       "id": "attraction-jantar-mantar",
-      "description": "Ancient astronomical instruments at Jantar Mantar, Delhi.",
-      "imageUrl": "https://images.unsplash.com/photo-1597816239861-2d790c88347e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxqYW50YXIlMjBtYW50YXIlMjBkZWxoaXxlbnwwfHx8fDE3NjYyMjg1OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A different perspective of Jantar Mantar's astronomical instruments.",
+      "imageUrl": "https://images.unsplash.com/photo-1627889652078-a28a3a925439?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8amFudGFyJTIwbWFudGFyJTIwZGVsaGl8ZW58MHx8fHwxNzY2MjI4NTkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "jantar mantar"
     },
     {
       "id": "attraction-agrasen-ki-baoli",
-      "description": "Descending steps of the ancient Agrasen ki Baoli stepwell.",
-      "imageUrl": "https://images.unsplash.com/photo-1598425142101-52d3a3d8f331?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhZ3Jhc2VuJTIwa2klMjBiYW9saXxlbnwwfHx8fDE3NjYyMjg0NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Looking down the steep steps of Agrasen ki Baoli.",
+      "imageUrl": "https://images.unsplash.com/photo-1617366313753-53535a01a0a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhZ3Jhc2VuJTIwa2klMjBiYW9saXxlbnwwfHx8fDE3NjYyMjg0NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "agrasen baoli"
     },
     {
       "id": "attraction-national-museum",
-      "description": "An artifact on display inside the National Museum, Delhi.",
-      "imageUrl": "https://images.unsplash.com/photo-1687358482209-38b44f2b9b87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtdXNldW0lMjBhcnRpZmFjdHxlbnwwfHx8fDE3NjYyMjg2MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "museum artifact"
+      "description": "The exterior of the National Museum building in New Delhi.",
+      "imageUrl": "https://images.unsplash.com/photo-1632212351259-afde12101705?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxuYXRpb25hbCUyMG11c2V1bSUyMGRlbGhpfGVufDB8fHx8MTc2NjIyODY2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "national museum"
     },
     {
       "id": "food-chaat",
@@ -80,8 +80,8 @@
     },
     {
       "id": "food-parathas",
-      "description": "Stack of freshly cooked parathas served with yogurt.",
-      "imageUrl": "https://images.unsplash.com/photo-1695423616654-e7a637d45763?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYXJhdGhhfGVufDB8fHx8MTc2NjE0NDMxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A top-down view of delicious stuffed parathas.",
+      "imageUrl": "https://images.unsplash.com/photo-1668665793033-3c9a33486a41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwYXJhdGhhfGVufDB8fHx8MTc2NjE0NDMxNHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "paratha bread"
     },
     {
@@ -98,8 +98,8 @@
     },
     {
       "id": "food-chole-bhature",
-      "description": "A delicious serving of chole bhature on a plate.",
-      "imageUrl": "https://images.unsplash.com/photo-1606495147571-a42828a2a7a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaG9sZSUyMGJoYXR1cmV8ZW58MHx8fHwxNzY2MTQ0MzE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Close-up of a serving of chole bhature.",
+      "imageUrl": "https://images.unsplash.com/photo-1695423616654-e7a637d45763?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYXJhdGhhfGVufDB8fHx8MTc2NjE0NDMxNHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "chole bhature"
     },
     {
@@ -129,7 +129,7 @@
     {
       "id": "market-connaught-place",
       "description": "The colonial architecture of Connaught Place",
-      "imageUrl": "https://images.unsplash.com/photo-1660546538190-8781af162505?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb25uYXVnaHQlMjBwbGFjZXxlbnwwfHx8fDE3NjYwNDMzMTJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1660546538190-8781af162505?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb25uYXVnaHQlMjBwbGFjZXxlbnwwfHx8fDE3NjYwNDMzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "connaught place"
     },
     {
@@ -141,7 +141,7 @@
     {
       "id": "market-khan-market",
       "description": "A modern storefront in Khan Market",
-      "imageUrl": "https://images.unsplash.com/photo-1494329157681-b2a3c7ff8aed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxraGFuJTIwbWFya2V0fGVufDB8fHx8MTc2NjA0NjQ2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1494329157681-b2a3c7ff8aed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxraGFuJTIwbWFya2V0fGVufDB8fHx8MTc2NjA0NjQ2MXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "khan market"
     },
     {
@@ -165,7 +165,7 @@
     {
       "id": "culture-british",
       "description": "British colonial-era building in Delhi",
-      "imageUrl": "https://images.unsplash.com/photo-1675809605902-f7229027aa8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb2xvbmlhbCUyMGFyY2hpdGVjdHVyZXxlbnwwfHx8fDE3NjYwNDMzMTJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1675809605902-f7229027aa8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb2xvbmlhbCUyMGFyY2hpdGVjdHVyZXxlbnwwfHx8fDE3NjYwNDMzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "colonial architecture"
     },
     {
