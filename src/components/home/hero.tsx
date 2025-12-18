@@ -18,32 +18,12 @@ export function Hero() {
             alt={indiaGateImg.description}
             data-ai-hint={indiaGateImg.imageHint}
             fill
-            className="object-cover opacity-50"
-            priority
-          />
-        )}
-         {rashtrapatiBhavanImg && (
-          <Image
-            src={rashtrapatiBhavanImg.imageUrl}
-            alt={rashtrapatiBhavanImg.description}
-            data-ai-hint={rashtrapatiBhavanImg.imageHint}
-            fill
-            className="object-cover opacity-30 mix-blend-lighten"
-            priority
-          />
-        )}
-         {skylineImg && (
-          <Image
-            src={skylineImg.imageUrl}
-            alt={skylineImg.description}
-            data-ai-hint={skylineImg.imageHint}
-            fill
-            className="object-cover opacity-20 mix-blend-overlay"
+            className="object-cover"
             priority
           />
         )}
       </div>
-      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent z-10"></div>
+      <div className="absolute inset-0 bg-black/40 z-10"></div>
       
       <div className="relative z-20 text-center px-4">
         <h1 className="text-4xl md:text-6xl font-headline font-bold mb-4 tracking-tight"
