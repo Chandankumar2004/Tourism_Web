@@ -20,37 +20,37 @@
     },
     {
       "id": "attraction-india-gate",
-      "description": "Close-up of India Gate",
+      "description": "A war memorial for 84,000 soldiers of the British Indian Army who died in the First World War.",
       "imageUrl": "https://images.unsplash.com/photo-1665558646240-b2190160c400?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpbmRpYSUyMGdhdGV8ZW58MHx8fHwxNzY2MDQzMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "india gate"
     },
     {
       "id": "attraction-qutub-minar",
-      "description": "The tall Qutub Minar tower",
+      "description": "A minaret and 'victory tower' that forms part of the Qutb complex, a UNESCO World Heritage Site.",
       "imageUrl": "https://images.unsplash.com/photo-1632426237957-5ea14aae7100?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxxdXR1YiUyMG1pbmFyfGVufDB8fHx8MTc2NjA0MzMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "qutub minar"
     },
     {
       "id": "attraction-red-fort",
-      "description": "The majestic Red Fort",
+      "description": "A historic fort in Old Delhi that served as the main residence of the Mughal Emperors.",
       "imageUrl": "https://images.unsplash.com/photo-1668885309462-89da4b87c930?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyZWQlMjBmb3J0fGVufDB8fHx8MTc2NTk5MzgxNnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "red fort"
     },
     {
       "id": "attraction-lotus-temple",
-      "description": "The flower-shaped Lotus Temple",
+      "description": "A Baháʼí House of Worship, notable for its flowerlike shape, it has become a prominent attraction.",
       "imageUrl": "https://images.unsplash.com/photo-1669873939341-9d34c6434c56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsb3R1cyUyMHRlbXBsZXxlbnwwfHx8fDE3NjYwNDMzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "lotus temple"
     },
     {
       "id": "attraction-humayuns-tomb",
-      "description": "The grand Humayun's Tomb",
+      "description": "The tomb of the Mughal Emperor Humayun, it was the first garden-tomb on the Indian subcontinent.",
       "imageUrl": "https://images.unsplash.com/photo-1736867612054-8e479ef83028?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxodW1heXVuJTIwdG9tYnxlbnwwfHx8fDE3NjYwNDMzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "humayun tomb"
     },
     {
       "id": "attraction-akshardham-temple",
-      "description": "The ornate Akshardham Temple",
+      "description": "A spiritual-cultural campus dedicated to devotion, learning, and harmony, with stunning architecture.",
       "imageUrl": "https://images.unsplash.com/photo-1741839839275-8c037785fc6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxha3NoYXJkaGFtJTIwdGVtcGxlfGVufDB8fHx8MTc2NjA0NjQ2MXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "akshardham temple"
     },
@@ -85,18 +85,6 @@
       "imageHint": "indian biryani"
     },
     {
-      "id": "food-chole-bhature",
-      "description": "A serving of Chole Bhature",
-      "imageUrl": "https://images.unsplash.com/photo-1633943822097-9ca4bc91cc7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2hvbGUlMjBiaGF0dXJlfGVufDB8fHx8MTc2NjAzMzk2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "chole bhature"
-    },
-    {
-      "id": "food-pani-puri",
-      "description": "A plate of Pani Puri",
-      "imageUrl": "https://images.unsplash.com/photo-1679934408676-73b4896063b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwYW5pJTIwcHVyaXxlbnwwfHx8fDE3NjU5OTY5OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "pani puri"
-    },
-    {
       "id": "market-chandni-chowk",
       "description": "A crowded street in Chandni Chowk",
       "imageUrl": "https://images.unsplash.com/photo-1713691132931-1cc66e362cdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZWxoaSUyMG1hcmtldHxlbnwwfHx8fDE3NjYwNDMzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -116,20 +104,20 @@
     },
     {
       "id": "market-khan-market",
-      "description": "A modern storefront in Khan Market",
-      "imageUrl": "https://images.unsplash.com/photo-1494329157681-b2a3c7ff8aed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxraGFuJTIwbWFya2V0fGVufDB8fHx8MTc2NjA0NjQ2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "An upscale market with a mix of high-end boutiques, bookstores, and trendy cafes.",
+      "imageUrl": "https://images.unsplash.com/photo-1494329157681-b2a3c7ff8aed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxrSGFuJTIwbWFya2V0fGVufDB8fHx8MTc2NjA0NjQ2MXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "khan market"
     },
     {
       "id": "market-sarojini-nagar",
-      "description": "Shoppers at Sarojini Nagar Market",
+      "description": "A famous market for bargain hunters, known for its export surplus clothing and trendy apparel.",
       "imageUrl": "https://images.unsplash.com/photo-1622325993172-167886470878?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBzdHJlZXQlMjBtYXJrZXR8ZW58MHx8fHwxNzY2MDQzMzE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "street market"
     },
     {
       "id": "market-janpath",
-      "description": "Colorful goods at Janpath Market",
-      "imageUrl": "https://images.unsplash.com/photo-1589139556883-0599571b0593?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBoYW5kaWNyYWZ0cyUyMG1hcmtldHxlbnwwfHx8fDE3NjYwNDMzMTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A bustling market popular with tourists and locals for its clothing, jewelry, and handicrafts.",
+      "imageUrl": "https://images.unsplash.com/photo-1589139556883-0599571b0593?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBoYW5kaWNyYWZ0cyUyMG1hcmtldHxlbnwwfHx8fDE3NjYwNDMzMTh8MA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "handicrafts market"
     },
     {
@@ -153,20 +141,32 @@
     {
       "id": "culture-festival",
       "description": "People celebrating a festival in Delhi",
-      "imageUrl": "https://images.unsplash.com/photo-1553334490-011441d86dbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpbmRpYW4lMjBmZXN0aXZhbHxlbnwwfHx8fDE3NjU5ODI1MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1553334490-011441d86dbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpbmRpYW4lMjBmZXN0aXZhbHxlbnwwfHx8fDE3NjU5ODI1MTJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "indian festival"
     },
     {
       "id": "culture-sufi-tradition",
       "description": "Musicians performing Qawwali",
-      "imageUrl": "https://images.unsplash.com/photo-1643098979608-1b22614abe88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdWZpJTIwbXVzaWN8ZW58MHx8fHwxNzY2MDQ2NDYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1643098979608-1b22614abe88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdWZpJTIwbXVzaWN8ZW58MHx8fHwxNzY2MDQ2NDYxfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "sufi music"
     },
     {
       "id": "culture-performing-arts",
       "description": "Classical Indian dance performance",
-      "imageUrl": "https://images.unsplash.com/photo-1588262279292-234958174542?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBjbGFzc2ljYWwlMjBkYW5jZXxlbnwwfHx8fDE3NjYwNDMzMjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1588262279292-234958174542?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBjbGFzc2ljYWwlMjBkYW5jZXxlbnwwfHx8fDE3NjYwNDMzMjF8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "indian dance"
+    },
+    {
+      "id": "food-chole-bhature",
+      "description": "A serving of Chole Bhature",
+      "imageUrl": "https://images.unsplash.com/photo-1606495110036-7587192b4d1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9sZSUyMGJoYXR1cmV8ZW58MHx8fHwxNzE4NzQ2ODUxfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "chole bhature"
+    },
+    {
+      "id": "food-pani-puri",
+      "description": "A close-up of Pani Puri balls on a plate",
+      "imageUrl": "https://images.unsplash.com/photo-1589301760014-d929f39791e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5pcHVyaXxlbnwwfHx8fDE3MTg3NDY5NTB8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "pani puri"
     }
   ]
 }
