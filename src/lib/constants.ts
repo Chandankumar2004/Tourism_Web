@@ -40,6 +40,16 @@ export const ATTRACTIONS = [
     id: "attraction-akshardham-temple",
     title: "Akshardham Temple",
     description: "A spiritual-cultural campus dedicated to devotion, learning, and harmony, with stunning architecture."
+  },
+  {
+    id: "attraction-jantar-mantar",
+    title: "Jantar Mantar",
+    description: "An observatory with 13 architectural astronomy instruments, built by Maharaja Jai Singh II of Jaipur."
+  },
+  {
+    id: "attraction-agrasen-ki-baoli",
+    title: "Agrasen ki Baoli",
+    description: "A 60-meter long and 15-meter wide historical stepwell on Hailey Road, near Connaught Place."
   }
 ];
 

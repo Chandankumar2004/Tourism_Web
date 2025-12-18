@@ -161,6 +161,18 @@
       "description": "A plate of Chole Bhature",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Chole_Bhature_from_Nagpur.JPG/2560px-Chole_Bhature_from_Nagpur.JPG",
       "imageHint": "chole bhature"
+    },
+    {
+      "id": "attraction-jantar-mantar",
+      "description": "An observatory with 13 architectural astronomy instruments.",
+      "imageUrl": "https://images.unsplash.com/photo-1598453494435-063851534346?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxKYW50YXIlMjBNYW50YXIlMkMlMjBEZWxoaXxlbnwwfHx8fDE3MjE4OTc1Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "jantar mantar"
+    },
+    {
+      "id": "attraction-agrasen-ki-baoli",
+      "description": "A 60-meter long and 15-meter wide historical stepwell.",
+      "imageUrl": "https://images.unsplash.com/photo-1616161439281-22e353683884?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBZ3Jhc2VuJTIwa2klMjBCYW9saXxlbnwwfHx8fDE3MjE4OTc1ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "agrasen ki baoli"
     }
   ]
 }
