@@ -47,9 +47,9 @@ export const ATTRACTIONS = [
     description: "An observatory with 13 architectural astronomy instruments, built by Maharaja Jai Singh II of Jaipur."
   },
   {
-    id: "attraction-agrasen-ki-baoli",
-    title: "Agrasen ki Baoli",
-    description: "A 60-meter long and 15-meter wide historical stepwell on Hailey Road, near Connaught Place."
+    id: "attraction-delhi-zoo",
+    title: "National Zoological Park, Delhi",
+    description: "Also known as the Delhi Zoo, it's a 176-acre zoo near the Old Fort in Delhi, India."
   }
 ];
 
