@@ -7,6 +7,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ATTRACTIONS, FOODS, MARKETS, CULTURE_TOPICS } from "@/lib/constants";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import Image from "next/image";
+import Link from 'next/link';
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { TramFront, ShieldCheck, Smile, Clock } from "lucide-react";
 import { useSearchParams } from 'next/navigation';
@@ -16,7 +17,8 @@ const travelTips = [
   {
     icon: <Clock className="w-6 h-6 text-primary" />,
     title: "Best Time to Visit",
-    content: "October to March offers pleasant weather, ideal for sightseeing. Summers (April-June) are very hot, and the monsoon season (July-September) is humid."
+    content: "October to March offers pleasant weather, ideal for sightseeing. Summers (April-June) are very hot, and the monsoon season (July-September) is humid.",
+    href: "/#plan-trip",
   },
   {
     icon: <TramFront className="w-6 h-6 text-primary" />,
@@ -110,17 +112,27 @@ export default function ExplorePage() {
 
             <TabsContent value="guide" className="mt-8">
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                {travelTips.map(tip => (
-                  <Card key={tip.title} className="bg-card">
-                    <CardHeader className="flex flex-row items-center gap-4 space-y-0 pb-2">
-                       <div className="bg-primary/10 p-3 rounded-full">{tip.icon}</div>
-                       <CardTitle className="text-lg font-headline">{tip.title}</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                      <p className="text-sm text-muted-foreground">{tip.content}</p>
-                    </CardContent>
-                  </Card>
-                ))}
+                {travelTips.map(tip => {
+                  const card = (
+                    <Card key={tip.title} className="bg-card h-full">
+                      <CardHeader className="flex flex-row items-center gap-4 space-y-0 pb-2">
+                        <div className="bg-primary/10 p-3 rounded-full">{tip.icon}</div>
+                        <CardTitle className="text-lg font-headline">{tip.title}</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <p className="text-sm text-muted-foreground">{tip.content}</p>
+                      </CardContent>
+                    </Card>
+                  );
+                  if (tip.href) {
+                    return (
+                      <Link href={tip.href} key={tip.title} className="block hover:shadow-lg transition-shadow rounded-lg">
+                        {card}
+                      </Link>
+                    )
+                  }
+                  return card;
+                })}
               </div>
             </TabsContent>
           </Tabs>
