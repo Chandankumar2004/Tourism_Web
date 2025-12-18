@@ -147,14 +147,8 @@
     {
       "id": "culture-sufi-tradition",
       "description": "Musicians performing Qawwali",
-      "imageUrl": "https://images.unsplash.com/photo-1643098979608-1b22614abe88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdWZpJTIwbXVzaWN8ZW58MHx8fHwxNzY2MDQ2NDYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1643098979608-1b22614abe88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdWZpJTIwbXVzaWN8ZW58MHx8fHwxNzY2MDQ2NDYxfDA&ixlib=rb-4.1_0&q=80&w=1080",
       "imageHint": "sufi music"
-    },
-    {
-      "id": "culture-performing-arts",
-      "description": "Classical Indian dance performance",
-      "imageUrl": "https://images.unsplash.com/photo-1588262279292-234958174542?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBjbGFzc2ljYWwlMjBkYW5jZXxlbnwwfHx8fDE3NjYwNDMzMjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "indian dance"
     },
     {
       "id": "food-chole-bhature",

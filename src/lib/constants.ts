@@ -144,10 +144,5 @@ export const CULTURE_TOPICS = [
         id: "culture-festival",
         title: "Festivals & Lifestyle",
         description: "Life in Delhi is a vibrant celebration. The city comes alive during festivals like Diwali, Holi, and Eid. Its cosmopolitan lifestyle blends traditional values with modern aspirations, creating a unique cultural fabric."
-    },
-    {
-        id: "culture-performing-arts",
-        title: "Performing Arts",
-        description: "Delhi has a thriving performing arts scene. Venues like the National School of Drama and India Habitat Centre regularly host plays, classical dance performances, and music concerts, showcasing the country's artistic diversity."
     }
 ]
