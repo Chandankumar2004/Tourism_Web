@@ -97,12 +97,6 @@
       "imageHint": "pani puri"
     },
     {
-      "id": "food-samosa",
-      "description": "A plate of Samosas",
-      "imageUrl": "https://images.unsplash.com/photo-1714799263348-41c7245cd714?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2Ftb3NhfGVufDB8fHx8MTc2NjA0MjA4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "samosa"
-    },
-    {
       "id": "market-chandni-chowk",
       "description": "A crowded street in Chandni Chowk",
       "imageUrl": "https://images.unsplash.com/photo-1713691132931-1cc66e362cdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZWxoaSUyMG1hcmtldHxlbnwwfHx8fDE3NjYwNDMzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -117,7 +111,7 @@
     {
       "id": "market-dilli-haat",
       "description": "Handicrafts at Dilli Haat",
-      "imageUrl": "https://images.unsplash.com/photo-1752297306048-85a80e0e9a62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxpbmRpYW4lMjBjcmFmdHN8ZW58MHx8fHwxNzY2MDQzMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1752297306048-85a80e0e9a62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxpbmRpYW4lMjBjcmFmdHN8ZW58MHx8fHwxNzY2MDQzMzEyfDA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "indian crafts"
     },
     {

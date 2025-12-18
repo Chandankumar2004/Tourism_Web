@@ -78,11 +78,6 @@ export const FOODS = [
         id: "food-pani-puri",
         title: "Pani Puri",
         description: "A popular street food snack consisting of a hollow, crispy-fried puffed ball that is filled with potato, chickpeas, onions, spices, and flavored water."
-    },
-    {
-        id: "food-samosa",
-        title: "Samosas",
-        description: "A fried or baked pastry with a savory filling, such as spiced potatoes, onions, peas, or lentils."
     }
 ];
 
