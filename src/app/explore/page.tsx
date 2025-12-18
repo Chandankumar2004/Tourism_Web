@@ -20,6 +20,7 @@ const travelTips = [
     icon: <Clock className="w-6 h-6 text-primary" />,
     title: "Best Time to Visit",
     content: "October to March offers pleasant weather, ideal for sightseeing. Summers (April-June) are very hot, and the monsoon season (July-September) is humid.",
+    href: "/#plan-trip",
   },
   {
     icon: <TramFront className="w-6 h-6 text-primary" />,
