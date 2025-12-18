@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { PlanTrip } from "@/components/home/plan-trip";
+import { cn } from "@/lib/utils";
 
 const highlights = [
   {
@@ -50,7 +51,7 @@ export default function Home() {
         <section id="discover" className="py-16 md:py-24">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-headline font-bold mb-4 text-foreground">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
                 The Heart of India
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
@@ -60,14 +61,17 @@ export default function Home() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
               {highlights.map((item) => (
                 <Link key={item.title} href={item.href}>
-                  <Card className="text-center bg-card border-border/50 hover:shadow-lg hover:shadow-primary/20 hover:border-primary transition-shadow h-full">
+                  <Card className={cn(
+                    "text-center bg-card border-transparent",
+                    "card-hover-effect"
+                  )}>
                     <CardHeader>
                       <div className="mx-auto bg-secondary p-4 rounded-full w-fit">
                         {item.icon}
                       </div>
                     </CardHeader>
                     <CardContent>
-                      <CardTitle className="font-headline text-xl mb-2">{item.title}</CardTitle>
+                      <CardTitle className="text-xl mb-2">{item.title}</CardTitle>
                       <CardDescription>{item.description}</CardDescription>
                     </CardContent>
                   </Card>
@@ -85,7 +89,7 @@ export default function Home() {
 
         <section className="py-16 md:py-24">
           <div className="container mx-auto px-4 text-center">
-             <h2 className="text-3xl md:text-4xl font-headline font-bold mb-4 text-foreground">
+             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
                 Ready to Explore?
               </h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">

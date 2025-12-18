@@ -31,7 +31,7 @@ export function Header() {
     >
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 font-headline font-bold text-xl text-primary">
+          <Link href="/" className="flex items-center gap-2 font-bold text-xl text-primary">
             <Wind className="h-6 w-6 text-primary" />
             <span>Delhi Discoveries</span>
           </Link>
@@ -42,7 +42,7 @@ export function Header() {
                 href={link.href}
                 className={cn(
                   "transition-colors hover:text-accent",
-                  pathname === link.href ? "text-primary font-bold" : "text-slate-gray"
+                  pathname === link.href ? "text-primary font-bold border-b-2 border-accent" : "text-slate-gray"
                 )}
               >
                 {link.label}

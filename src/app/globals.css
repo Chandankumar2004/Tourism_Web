@@ -28,7 +28,7 @@
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
-    --radius: 0.5rem;
+    --radius: 24px;
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
     --sidebar-primary: 240 5.9% 10%;
@@ -79,15 +79,24 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-slate-gray;
+    @apply bg-background text-slate-gray font-body;
   }
   h1, h2, h3, h4, h5, h6 {
-    @apply text-charcoal-black;
+    @apply text-charcoal-black font-headline;
   }
 }
 
 @layer components {
     .btn-submit {
         @apply bg-[#EC4899] hover:bg-[#DB2777] text-white;
+    }
+    .card {
+      @apply rounded-[var(--radius)] shadow-[0_20px_40px_rgba(109,40,217,0.15),inset_0_1px_0_rgba(255,255,255,0.6)];
+    }
+    .card-hover-effect {
+      @apply transition-transform duration-300;
+    }
+    .card-hover-effect:hover {
+        @apply transform -translate-y-2 scale-[1.02];
     }
 }

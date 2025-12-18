@@ -21,10 +21,10 @@ export function Hero() {
           />
         )}
       </div>
-      <div className="absolute inset-0 bg-gradient-to-b from-[rgba(109,40,217,0.75)] to-[rgba(0,0,0,0.4)] z-10"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-[rgba(30,27,75,0.75)] to-[rgba(0,0,0,0.4)] z-10"></div>
       
       <div className="relative z-20 text-center px-4">
-        <h1 className="text-4xl md:text-6xl font-headline font-bold mb-4 tracking-tight text-white"
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight text-white"
           style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.7)' }}>
           New Delhi
         </h1>
