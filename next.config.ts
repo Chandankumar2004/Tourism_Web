@@ -64,6 +64,12 @@ const nextConfig: NextConfig = {
         hostname: 'media3.thrillophilia.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'media.istockphoto.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
@@ -74,4 +80,5 @@ export default nextConfig;
     
 
     
+
 
