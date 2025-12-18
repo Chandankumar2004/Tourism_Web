@@ -41,6 +41,21 @@ export const ATTRACTIONS = [
     title: "Akshardham Temple",
     description: "A spiritual-cultural campus dedicated to devotion, learning, and harmony, with stunning architecture."
   },
+  {
+    id: "attraction-jantar-mantar",
+    title: "Jantar Mantar",
+    description: "An equinoctial sundial and astronomical observatory, featuring a collection of 13 architectural astronomy instruments.",
+  },
+  {
+    id: "attraction-agrasen-ki-baoli",
+    title: "Agrasen ki Baoli",
+    description: "A protected monument, this ancient stepwell consists of 108 steps and a series of arched niches.",
+  },
+  {
+    id: "attraction-national-museum",
+    title: "National Museum",
+    description: "One of India's largest museums, holding a variety of articles from the pre-historic era to modern works of art.",
+  }
 ];
 
 export const FOODS = [
@@ -73,6 +88,16 @@ export const FOODS = [
         id: "food-old-delhi",
         title: "Old Delhi's Cuisine",
         description: "Explore the culinary heart of Delhi with centuries-old recipes and bustling food lanes.",
+    },
+    {
+        id: "food-kebabs",
+        title: "Kebabs",
+        description: "Succulent pieces of marinated meat, grilled to perfection on skewers. A Mughlai delicacy."
+    },
+    {
+        id: "food-biryani",
+        title: "Biryani",
+        description: "A fragrant rice dish made with spices, meat or vegetables. A complete meal in itself."
     }
 ];
 
@@ -96,6 +121,16 @@ export const MARKETS = [
         id: "market-khan-market",
         title: "Khan Market",
         description: "An upscale market with a mix of high-end boutiques, bookstores, and trendy cafes."
+    },
+    {
+        id: "market-sarojini-nagar",
+        title: "Sarojini Nagar",
+        description: "A famous market for bargain hunters, known for its export surplus clothing and trendy apparel.",
+    },
+    {
+        id: "market-janpath",
+        title: "Janpath Market",
+        description: "A bustling market popular with tourists and locals for its clothing, jewelry, and handicrafts.",
     }
 ];
 
@@ -124,5 +159,10 @@ export const CULTURE_TOPICS = [
         id: "culture-festival",
         title: "Festivals & Lifestyle",
         description: "Life in Delhi is a vibrant celebration. The city comes alive during festivals like Diwali, Holi, and Eid. Its cosmopolitan lifestyle blends traditional values with modern aspirations, creating a unique cultural fabric."
+    },
+    {
+        id: "culture-performing-arts",
+        title: "Performing Arts",
+        description: "Delhi has a thriving performing arts scene. Venues like the National School of Drama and India Habitat Centre regularly host plays, classical dance performances, and music concerts, showcasing the country's artistic diversity."
     }
 ]

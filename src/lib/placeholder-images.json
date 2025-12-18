@@ -55,6 +55,24 @@
       "imageHint": "akshardham temple"
     },
     {
+      "id": "attraction-jantar-mantar",
+      "description": "Jantar Mantar astronomical observatory in Delhi.",
+      "imageUrl": "https://images.unsplash.com/photo-1615598818204-399997127e2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxqYW50YXIlMjBtYW50YXIlMjBkZWxoaXxlbnwwfHx8fDE3NjYwNDMzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "jantar mantar"
+    },
+    {
+      "id": "attraction-agrasen-ki-baoli",
+      "description": "Agrasen ki Baoli, a historical stepwell in Delhi.",
+      "imageUrl": "https://images.unsplash.com/photo-1620760431696-3c7ebc8c9462?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhZ3Jhc2VuJTIwa2klMjBiYW9saSUyMGRlbGhpfGVufDB8fHx8MTc2NjA0MzMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "agrasen baoli"
+    },
+    {
+      "id": "attraction-national-museum",
+      "description": "Artifacts on display at the National Museum, Delhi.",
+      "imageUrl": "https://images.unsplash.com/photo-1543398337-a8785e04314c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYXRpb25hbCUyMG11c2V1bSUyMGRlbGhpfGVufDB8fHx8MTc2NjA0MzMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "national museum"
+    },
+    {
       "id": "food-chaat",
       "description": "A plate of spicy and savory chaat",
       "imageUrl": "https://images.unsplash.com/photo-1601050690597-df0568f70950?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxpbmRpYW4lMjBmb29kfGVufDB8fHx8MTc2NjAzMTU2MXww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -91,6 +109,18 @@
       "imageHint": "kulfi icecream"
     },
     {
+      "id": "food-kebabs",
+      "description": "Juicy grilled kebabs on a skewer",
+      "imageUrl": "https://images.unsplash.com/photo-1599452140131-b0a23e800d14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBrZWJhYnN8ZW58MHx8fHwxNzY2MDQzMzE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian kebabs"
+    },
+    {
+      "id": "food-biryani",
+      "description": "Aromatic and flavorful biryani",
+      "imageUrl": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBiaXJ5YW5pfGVufDB8fHx8MTc2NjA0MzMxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian biryani"
+    },
+    {
       "id": "market-chandni-chowk",
       "description": "A crowded street in Chandni Chowk",
       "imageUrl": "https://images.unsplash.com/photo-1713691132931-1cc66e362cdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZWxoaSUyMG1hcmtldHxlbnwwfHx8fDE3NjYwNDMzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -113,6 +143,18 @@
       "description": "A modern storefront in Khan Market",
       "imageUrl": "https://images.unsplash.com/photo-1494329157681-b2a3c7ff8aed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxraGFuJTIwbWFya2V0fGVufDB8fHx8MTc2NjA0NjQ2MXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "khan market"
+    },
+    {
+      "id": "market-sarojini-nagar",
+      "description": "Shoppers at Sarojini Nagar Market",
+      "imageUrl": "https://images.unsplash.com/photo-1622325993172-167886470878?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBzdHJlZXQlMjBtYXJrZXR8ZW58MHx8fHwxNzY2MDQzMzE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "street market"
+    },
+    {
+      "id": "market-janpath",
+      "description": "Colorful goods at Janpath Market",
+      "imageUrl": "https://images.unsplash.com/photo-1589139556883-0599571b0593?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBoYW5kaWNyYWZ0cyUyMG1hcmtldHxlbnwwfHx8fDE3NjYwNDMzMTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "handicrafts market"
     },
     {
       "id": "culture-mughal",
@@ -143,6 +185,12 @@
       "description": "Musicians performing Qawwali",
       "imageUrl": "https://images.unsplash.com/photo-1643098979608-1b22614abe88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdWZpJTIwbXVzaWN8ZW58MHx8fHwxNzY2MDQ2NDYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sufi music"
+    },
+    {
+      "id": "culture-performing-arts",
+      "description": "Classical Indian dance performance",
+      "imageUrl": "https://images.unsplash.com/photo-1588262279292-234958174542?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBjbGFzc2ljYWwlMjBkYW5jZXxlbnwwfHx8fDE3NjYwNDMzMjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian dance"
     }
   ]
 }
