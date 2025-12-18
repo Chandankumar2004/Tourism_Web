@@ -35,7 +35,7 @@ const personalizedTravelRecommendationsPrompt = ai.definePrompt({
 
   The tourist is interested in: {{interests}}
 
-  Provide a concise list of recommendations, including specific places to visit, cuisines to explore, and experiences to enjoy. Consider any relevant holidays, festivals, or events happening during this time of year. Format the output as a markdown list of bullet points.
+  Provide a concise list of 3-4 recommendations, including specific places to visit, cuisines to explore, and experiences to enjoy. Consider any relevant holidays, festivals, or events happening during this time of year. Format the output as a markdown list of bullet points.
 `,
 });
 
