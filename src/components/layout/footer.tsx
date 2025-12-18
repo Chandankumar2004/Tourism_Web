@@ -1,7 +1,13 @@
+
+'use client';
+
+import React from 'react';
 import Link from "next/link";
 import { MapPin, Phone, Mail, Youtube, Twitter, Instagram, Facebook } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import { useToast } from "@/hooks/use-toast";
+
 
 const exploreLinks = [
     { href: "/", label: "Home" },
@@ -18,6 +24,66 @@ const socialLinks = [
     { href: "https://instagram.com", icon: Instagram },
     { href: "https://youtube.com", icon: Youtube },
 ]
+
+function NewsletterForm() {
+    const { toast } = useToast();
+    const [email, setEmail] = React.useState('');
+    const [submitting, setSubmitting] = React.useState(false);
+
+    const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+        event.preventDefault();
+        setSubmitting(true);
+
+        try {
+            const response = await fetch("https://formspree.io/f/mrezzrjn", {
+                method: "POST",
+                body: new FormData(event.currentTarget),
+                headers: {
+                    'Accept': 'application/json'
+                }
+            });
+
+            if (response.ok) {
+                toast({
+                    title: "Subscribed!",
+                    description: "Thanks for subscribing to our newsletter.",
+                });
+                setEmail('');
+            } else {
+                toast({
+                    variant: "destructive",
+                    title: "Uh oh! Something went wrong.",
+                    description: "Could not subscribe. Please try again.",
+                });
+            }
+        } catch (error) {
+            toast({
+                variant: "destructive",
+                title: "Uh oh! Something went wrong.",
+                description: "There was a problem connecting to the server.",
+            });
+        } finally {
+            setSubmitting(false);
+        }
+    };
+
+    return (
+        <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2">
+            <Input 
+                type="email" 
+                name="email"
+                placeholder="Your email address" 
+                className="bg-background border-border/20 text-foreground placeholder:text-muted-foreground flex-grow"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+            />
+            <Button type="submit" disabled={submitting} className="bg-primary hover:bg-primary/90 text-primary-foreground">
+                {submitting ? 'Subscribing...' : 'Subscribe'}
+            </Button>
+        </form>
+    );
+}
 
 export function Footer() {
   return (
@@ -79,10 +145,7 @@ export function Footer() {
           <div>
             <h3 className="font-headline text-lg text-foreground font-bold mb-4">Stay Updated</h3>
             <p className="text-sm mb-4 text-muted-foreground">Subscribe to our newsletter for travel tips and updates.</p>
-            <form className="flex flex-col sm:flex-row gap-2">
-              <Input type="email" placeholder="Your email address" className="bg-background border-border/20 text-foreground placeholder:text-muted-foreground flex-grow" />
-              <Button type="submit" className="bg-primary hover:bg-primary/90 text-primary-foreground">Subscribe</Button>
-            </form>
+            <NewsletterForm />
           </div>
 
         </div>
