@@ -1,6 +1,7 @@
 'use server';
 
 import { metroGuide, type MetroGuideOutput } from '@/ai/flows/metro-guide-flow';
+import { planTrip, type PlanTripOutput } from '@/ai/flows/plan-trip-flow';
 import { z } from 'zod';
 
 
@@ -42,6 +43,50 @@ export async function getMetroGuide(prevState: MetroGuideState, formData: FormDa
     console.error(error);
     return {
       message: 'An unexpected error occurred. Please try again later.',
+      errors: null,
+      result: null,
+    };
+  }
+}
+
+const planTripSchema = z.object({
+  month: z.string().min(3, 'Month is required.'),
+  interests: z.string().min(3, 'Please enter at least one interest.'),
+});
+
+type PlanTripState = {
+  message?: string | null;
+  errors?: {
+    month?: string[];
+    interests?: string[];
+  } | null;
+  result?: PlanTripOutput | null;
+}
+
+export async function getTripRecommendations(prevState: PlanTripState, formData: FormData): Promise<PlanTripState> {
+  const validatedFields = planTripSchema.safeParse({
+    month: formData.get('month'),
+    interests: formData.get('interests'),
+  });
+
+  if (!validatedFields.success) {
+    return {
+      message: 'Invalid form data.',
+      errors: validatedFields.error.flatten().fieldErrors,
+    };
+  }
+
+  try {
+    const result = await planTrip(validatedFields.data);
+    return {
+      message: 'success',
+      result,
+      errors: null,
+    };
+  } catch (error) {
+    console.error(error);
+    return {
+      message: 'An unexpected error occurred while generating recommendations. Please try again later.',
       errors: null,
       result: null,
     };

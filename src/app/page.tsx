@@ -11,6 +11,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { PlanTrip } from "@/components/home/plan-trip";
 
 const highlights = [
   {
@@ -73,6 +74,12 @@ export default function Home() {
                 </Link>
               ))}
             </div>
+          </div>
+        </section>
+
+        <section id="plan-trip" className="py-16 md:py-24 bg-secondary/50">
+          <div className="container mx-auto px-4">
+            <PlanTrip />
           </div>
         </section>
 
