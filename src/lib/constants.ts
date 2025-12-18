@@ -1,3 +1,4 @@
+
 export const NAV_LINKS = [
   { href: "/", label: "Home" },
   { href: "/explore", label: "Explore Delhi" },
@@ -35,6 +36,11 @@ export const ATTRACTIONS = [
     title: "Humayun's Tomb",
     description: "The tomb of the Mughal Emperor Humayun, it was the first garden-tomb on the Indian subcontinent.",
   },
+  {
+    id: "attraction-akshardham-temple",
+    title: "Akshardham Temple",
+    description: "A spiritual-cultural campus dedicated to devotion, learning, and harmony, with stunning architecture."
+  },
 ];
 
 export const FOODS = [
@@ -52,6 +58,16 @@ export const FOODS = [
         id: "food-butter-chicken",
         title: "Butter Chicken",
         description: "A type of curry made from chicken with a spiced tomato and butter (makhan) sauce.",
+    },
+    {
+        id: "food-chole-bhature",
+        title: "Chole Bhature",
+        description: "A spicy chickpea curry paired with fluffy, deep-fried bread. A quintessential Delhi breakfast."
+    },
+    {
+        id: "food-kulfi",
+        title: "Kulfi",
+        description: "A traditional, dense Indian ice cream. Often flavored with pistachio, mango, or cardamom."
     },
     {
         id: "food-old-delhi",
@@ -75,6 +91,11 @@ export const MARKETS = [
         id: "market-dilli-haat",
         title: "Dilli Haat",
         description: "An open-air food plaza and craft bazaar, offering a glimpse of India's diverse culture and cuisine.",
+    },
+    {
+        id: "market-khan-market",
+        title: "Khan Market",
+        description: "An upscale market with a mix of high-end boutiques, bookstores, and trendy cafes."
     }
 ];
 
@@ -88,6 +109,11 @@ export const CULTURE_TOPICS = [
         id: "culture-british",
         title: "British Colonial Architecture",
         description: "The British Raj left an indelible mark on Delhi, designing the central administrative area of the city. The grand buildings of Lutyens' Delhi, including Rashtrapati Bhavan and the Secretariat, are prime examples of this era's architectural vision."
+    },
+    {
+        id: "culture-sufi-tradition",
+        title: "Sufi Tradition",
+        description: "Experience spiritual tranquility through Sufi music and poetry at places like the Nizamuddin Dargah, which hosts weekly Qawwali sessions, offering a soulful glimpse into a mystical side of Delhi."
     },
     {
         id: "culture-museum",
