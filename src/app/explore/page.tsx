@@ -12,6 +12,7 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { TramFront, ShieldCheck, Smile, Clock } from "lucide-react";
 import { useSearchParams } from 'next/navigation';
 import { useEffect, useState } from "react";
+import { SafetyTipsDialog } from "@/components/explore/safety-tips-dialog";
 
 const travelTips = [
   {
@@ -29,6 +30,7 @@ const travelTips = [
   {
     icon: <ShieldCheck className="w-6 h-6 text-primary" />,
     title: "Safety Tips",
+    id: "safety-tips",
     content: "Be aware of your surroundings, especially in crowded places. Avoid displaying valuables openly. Use official transport or ride-hailing apps at night."
   },
   {
@@ -114,6 +116,10 @@ export default function ExplorePage() {
             <TabsContent value="guide" className="mt-8">
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {travelTips.map(tip => {
+                  if (tip.id === 'safety-tips') {
+                    return <SafetyTipsDialog key={tip.title} tip={tip} />;
+                  }
+
                   const card = (
                     <Card key={tip.title} className="bg-card h-full">
                       <CardHeader className="flex flex-row items-center gap-4 space-y-0 pb-2">
@@ -125,6 +131,7 @@ export default function ExplorePage() {
                       </CardContent>
                     </Card>
                   );
+
                   if (tip.href) {
                     return (
                       <Link href={tip.href} key={tip.title} className="block hover:shadow-lg transition-shadow rounded-lg">
