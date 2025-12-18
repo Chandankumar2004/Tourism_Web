@@ -67,11 +67,11 @@ export function Footer() {
                 </li>
                 <li className="flex items-center gap-3">
                     <Phone className="w-5 h-5 text-primary shrink-0" />
-                    <a href="tel:+91-11-23456789" className="hover:text-primary transition-colors">+91-11-2345 6789</a>
+                    <a href="tel:+919304335185" className="hover:text-primary transition-colors">+91-93043 35185</a>
                 </li>
                 <li className="flex items-center gap-3">
                     <Mail className="w-5 h-5 text-primary shrink-0" />
-                    <a href="mailto:info@delhitourism.gov.in" className="hover:text-primary transition-colors">info@delhitourism.gov.in</a>
+                    <a href="mailto:chandan32005c@gmail.com" className="hover:text-primary transition-colors">chandan32005c@gmail.com</a>
                 </li>
             </ul>
           </div>

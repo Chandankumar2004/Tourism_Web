@@ -1,3 +1,6 @@
+'use client';
+
+import React, { useState } from 'react';
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
@@ -5,6 +8,85 @@ import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
+
+function ContactForm() {
+  const [succeeded, setSucceeded] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [errors, setErrors] = useState<{ email?: string[]; message?: string[] }>({});
+
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    setSubmitting(true);
+    const formData = new FormData(event.currentTarget);
+    
+    try {
+      const response = await fetch("https://formspree.io/f/mrezzrjn", {
+        method: "POST",
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+      
+      if (response.ok) {
+        setSucceeded(true);
+      } else {
+        const data = await response.json();
+        if (data.errors) {
+          const formErrors: { email?: string[]; message?: string[] } = {};
+          data.errors.forEach((error: { field: string; message: string; }) => {
+            if (error.field === 'email') {
+              if (!formErrors.email) formErrors.email = [];
+              formErrors.email.push(error.message);
+            }
+            if (error.field === 'message') {
+              if (!formErrors.message) formErrors.message = [];
+              formErrors.message.push(error.message);
+            }
+          });
+          setErrors(formErrors);
+        } else {
+          setErrors({ message: ["An unknown error occurred."] });
+        }
+      }
+    } catch (error) {
+      setErrors({ message: ["There was a problem submitting the form."] });
+    } finally {
+      setSubmitting(false);
+    }
+  };
+  
+  if (succeeded) {
+      return <p className="text-center text-lg text-primary">Thanks for your message!</p>;
+  }
+
+  return (
+    <form onSubmit={handleSubmit} className="space-y-4 max-w-xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="space-y-2">
+          <Label htmlFor="name">Name</Label>
+          <Input id="name" name="name" placeholder="Your Name" />
+        </div>
+        <div className="space-y-2">
+          <Label htmlFor="email">Email</Label>
+          <Input id="email" type="email" name="email" placeholder="your@email.com" />
+           {errors.email && <p className="text-sm text-destructive">{errors.email.join(', ')}</p>}
+        </div>
+      </div>
+      <div className="space-y-2">
+        <Label htmlFor="message">Message</Label>
+        <Textarea id="message" name="message" placeholder="Your message..." />
+        {errors.message && <p className="text-sm text-destructive">{errors.message.join(', ')}</p>}
+      </div>
+      <div className="text-center">
+        <Button type="submit" disabled={submitting} className="bg-accent hover:bg-accent/90 text-accent-foreground">
+          {submitting ? 'Sending...' : 'Send Message'}
+        </Button>
+      </div>
+    </form>
+  );
+}
+
 
 export default function AboutPage() {
   return (
@@ -38,25 +120,7 @@ export default function AboutPage() {
                 <CardDescription>Have a question or suggestion? Drop us a line.</CardDescription>
               </CardHeader>
               <CardContent>
-                <form className="space-y-4 max-w-xl mx-auto">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div className="space-y-2">
-                      <Label htmlFor="name">Name</Label>
-                      <Input id="name" placeholder="Your Name" />
-                    </div>
-                    <div className="space-y-2">
-                      <Label htmlFor="email">Email</Label>
-                      <Input id="email" type="email" placeholder="your@email.com" />
-                    </div>
-                  </div>
-                  <div className="space-y-2">
-                    <Label htmlFor="message">Message</Label>
-                    <Textarea id="message" placeholder="Your message..." />
-                  </div>
-                  <div className="text-center">
-                    <Button type="submit" className="bg-accent hover:bg-accent/90 text-accent-foreground">Send Message</Button>
-                  </div>
-                </form>
+                <ContactForm />
               </CardContent>
             </Card>
 
