@@ -18,21 +18,25 @@ const highlights = [
     icon: <Landmark className="w-8 h-8 text-primary" />,
     title: "Heritage",
     description: "Explore majestic forts, ancient tombs, and colonial architecture.",
+    href: "/explore?tab=attractions",
   },
   {
     icon: <Palette className="w-8 h-8 text-primary" />,
     title: "Culture",
     description: "Immerse yourself in a vibrant mix of traditions, arts, and festivals.",
+    href: "/explore?tab=culture",
   },
   {
     icon: <UtensilsCrossed className="w-8 h-8 text-primary" />,
     title: "Food",
     description: "Savor a culinary journey from spicy street food to fine dining.",
+    href: "/explore?tab=food",
   },
   {
     icon: <ShoppingBag className="w-8 h-8 text-primary" />,
     title: "Markets",
     description: "Get lost in bustling bazaars and modern shopping complexes.",
+    href: "/explore?tab=shopping",
   },
 ];
 
@@ -55,17 +59,19 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
               {highlights.map((item) => (
-                <Card key={item.title} className="text-center bg-card border-border/50 hover:shadow-lg transition-shadow">
-                  <CardHeader>
-                    <div className="mx-auto bg-primary/10 p-4 rounded-full w-fit">
-                      {item.icon}
-                    </div>
-                  </CardHeader>
-                  <CardContent>
-                    <CardTitle className="font-headline text-xl mb-2">{item.title}</CardTitle>
-                    <CardDescription>{item.description}</CardDescription>
-                  </CardContent>
-                </Card>
+                <Link key={item.title} href={item.href}>
+                  <Card className="text-center bg-card border-border/50 hover:shadow-lg transition-shadow h-full">
+                    <CardHeader>
+                      <div className="mx-auto bg-primary/10 p-4 rounded-full w-fit">
+                        {item.icon}
+                      </div>
+                    </CardHeader>
+                    <CardContent>
+                      <CardTitle className="font-headline text-xl mb-2">{item.title}</CardTitle>
+                      <CardDescription>{item.description}</CardDescription>
+                    </CardContent>
+                  </Card>
+                </Link>
               ))}
             </div>
           </div>

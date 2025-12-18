@@ -1,3 +1,5 @@
+'use client';
+
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { InfoCard } from "@/components/explore/info-card";
@@ -7,6 +9,8 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { TramFront, ShieldCheck, Smile, Clock } from "lucide-react";
+import { useSearchParams } from 'next/navigation';
+import { useEffect, useState } from "react";
 
 const travelTips = [
   {
@@ -32,6 +36,16 @@ const travelTips = [
 ];
 
 export default function ExplorePage() {
+  const searchParams = useSearchParams();
+  const tabParam = searchParams.get('tab');
+  const [activeTab, setActiveTab] = useState(tabParam || 'attractions');
+
+  useEffect(() => {
+    if (tabParam) {
+      setActiveTab(tabParam);
+    }
+  }, [tabParam]);
+
   return (
     <div className="flex flex-col min-h-screen bg-background">
       <Header />
@@ -44,7 +58,7 @@ export default function ExplorePage() {
             </p>
           </div>
 
-          <Tabs defaultValue="attractions" className="w-full">
+          <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
             <TabsList className="grid w-full grid-cols-2 sm:grid-cols-3 md:grid-cols-5 h-auto">
               <TabsTrigger value="attractions">Attractions</TabsTrigger>
               <TabsTrigger value="food">Food & Cuisine</TabsTrigger>
