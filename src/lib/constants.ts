@@ -50,19 +50,9 @@ export const FOODS = [
         description: "A savory snack, typically served as an hors d'oeuvre at roadside tracks from stalls or food carts.",
     },
     {
-        id: "food-parathas",
-        title: "Parathas",
-        description: "An Indian flatbread native to the Indian subcontinent, prevalent throughout the modern-day nations of India.",
-    },
-    {
         id: "food-butter-chicken",
         title: "Butter Chicken",
         description: "A type of curry made from chicken with a spiced tomato and butter (makhan) sauce.",
-    },
-    {
-        id: "food-chole-bhature",
-        title: "Chole Bhature",
-        description: "A spicy chickpea curry paired with fluffy, deep-fried bread. A quintessential Delhi breakfast."
     },
     {
         id: "food-kulfi",

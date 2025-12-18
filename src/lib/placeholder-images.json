@@ -61,12 +61,6 @@
       "imageHint": "indian food"
     },
     {
-      "id": "food-parathas",
-      "description": "Freshly made Indian paratha bread.",
-      "imageUrl": "https://images.unsplash.com/photo-1565557623262-b271252ce837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwYXJhdGhhfGVufDB8fHx8MTc3MjM1ODk4OHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "paratha bread"
-    },
-    {
       "id": "food-butter-chicken",
       "description": "A rich bowl of butter chicken",
       "imageUrl": "https://images.unsplash.com/photo-1710091691802-7dedb8af9a77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBjdXJyeXxlbnwwfHx8fDE3NjU5NjM2ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -77,12 +71,6 @@
       "description": "Busy food street in Old Delhi",
       "imageUrl": "https://images.unsplash.com/photo-1713691132931-1cc66e362cdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZWxoaSUyMG1hcmtldHxlbnwwfHx8fDE3NjYwNDMzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "delhi market"
-    },
-    {
-      "id": "food-chole-bhature",
-      "description": "A plate of Chole Bhature with onions.",
-      "imageUrl": "https://images.unsplash.com/photo-1695570272215-2f8cf341935b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9sZSUyMGJoYXR1cmV8ZW58MHx8fHwxNzcyMzU5MDI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "chole bhature"
     },
     {
       "id": "food-kulfi",
