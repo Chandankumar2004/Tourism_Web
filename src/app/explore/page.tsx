@@ -6,7 +6,7 @@ import { ATTRACTIONS, FOODS, MARKETS, CULTURE_TOPICS } from "@/lib/constants";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import { Metro, ShieldCheck, Smile, Clock } from "lucide-react";
+import { TramFront, ShieldCheck, Smile, Clock } from "lucide-react";
 
 const travelTips = [
   {
@@ -15,7 +15,7 @@ const travelTips = [
     content: "October to March offers pleasant weather, ideal for sightseeing. Summers (April-June) are very hot, and the monsoon season (July-September) is humid."
   },
   {
-    icon: <Metro className="w-6 h-6 text-primary" />,
+    icon: <TramFront className="w-6 h-6 text-primary" />,
     title: "Delhi Metro Guide",
     content: "The Delhi Metro is a fast, cheap, and air-conditioned way to travel. Get a Smart Card for easy tap-and-go access and discounts on fares."
   },
