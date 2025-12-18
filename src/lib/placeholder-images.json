@@ -56,20 +56,20 @@
     },
     {
       "id": "attraction-jantar-mantar",
-      "description": "A different perspective of Jantar Mantar's astronomical instruments.",
+      "description": "A sunny day at the Jantar Mantar observatory in Delhi.",
       "imageUrl": "https://images.unsplash.com/photo-1627889652078-a28a3a925439?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8amFudGFyJTIwbWFudGFyJTIwZGVsaGl8ZW58MHx8fHwxNzY2MjI4NTkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "jantar mantar"
     },
     {
       "id": "attraction-agrasen-ki-baoli",
-      "description": "Looking down the steep steps of Agrasen ki Baoli.",
-      "imageUrl": "https://images.unsplash.com/photo-1617366313753-53535a01a0a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhZ3Jhc2VuJTIwa2klMjBiYW9saXxlbnwwfHx8fDE3NjYyMjg0NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Ancient architecture of Agrasen ki Baoli stepwell.",
+      "imageUrl": "https://images.unsplash.com/photo-1594319894145-d86187b69324?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhZ3Jhc2VuJTIwa2klMjBiYW9saXxlbnwwfHx8fDE3NjYyMjg0NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "agrasen baoli"
     },
     {
       "id": "attraction-national-museum",
-      "description": "The exterior of the National Museum building in New Delhi.",
-      "imageUrl": "https://images.unsplash.com/photo-1632212351259-afde12101705?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxuYXRpb25hbCUyMG11c2V1bSUyMGRlbGhpfGVufDB8fHx8MTc2NjIyODY2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "The grand entrance of the National Museum in New Delhi.",
+      "imageUrl": "https://images.unsplash.com/photo-1590123537877-c99d0f2f3e8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYXRpb25hbCUyMG11c2V1bSUyMGRlbGhpfGVufDB8fHx8MTc2NjIyODY2MHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "national museum"
     },
     {
@@ -80,8 +80,8 @@
     },
     {
       "id": "food-parathas",
-      "description": "A top-down view of delicious stuffed parathas.",
-      "imageUrl": "https://images.unsplash.com/photo-1668665793033-3c9a33486a41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwYXJhdGhhfGVufDB8fHx8MTc2NjE0NDMxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Hot and fresh parathas being served.",
+      "imageUrl": "https://images.unsplash.com/photo-1626513474938-2c2f7b115978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYXJhdGhhfGVufDB8fHx8MTc2NjE0NDMxNHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "paratha bread"
     },
     {
@@ -98,8 +98,8 @@
     },
     {
       "id": "food-chole-bhature",
-      "description": "Close-up of a serving of chole bhature.",
-      "imageUrl": "https://images.unsplash.com/photo-1695423616654-e7a637d45763?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYXJhdGhhfGVufDB8fHx8MTc2NjE0NDMxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A delicious plate of chole bhature.",
+      "imageUrl": "https://images.unsplash.com/photo-1606495110433-a447a16b3b57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaG9sZSUyMGJoYXR1cmV8ZW58MHx8fHwxNzY2MTQ0NTYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "chole bhature"
     },
     {
@@ -141,7 +141,7 @@
     {
       "id": "market-khan-market",
       "description": "A modern storefront in Khan Market",
-      "imageUrl": "https://images.unsplash.com/photo-1494329157681-b2a3c7ff8aed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxraGFuJTIwbWFya2V0fGVufDB8fHx8MTc2NjA0NjQ2MXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1494329157681-b2a3c7ff8aed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxraGFuJTIwbWFya2V0fGVufDB8fHx8MTc2NjA0NjQ2MXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "khan market"
     },
     {
