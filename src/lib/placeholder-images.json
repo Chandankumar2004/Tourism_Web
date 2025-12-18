@@ -164,13 +164,13 @@
     },
     {
       "id": "attraction-jantar-mantar",
-      "description": "An observatory with 13 architectural astronomy instruments.",
-      "imageUrl": "https://images.unsplash.com/photo-1598453494435-063851534346?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxKYW50YXIlMjBNYW50YXIlMkMlMjBEZWxoaXxlbnwwfHx8fDE3MjE4OTc1Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "An observatory with 13 architectural astronomy instruments, built by Maharaja Jai Singh II of Jaipur.",
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzuvJvW5XlBS_7M0C0bMGv9sI0Kb2q1cOC5xpgKuAG4wKCS8OQS6e3wzsXgUruAAMlQ2KSahxQIEUNTZ6Yvnw_hwMzE4rLmH9DSxQXyDn9l1rbn2n--09AOnIKLFhgU3Ju4Jqzdxg=s1360-w1360-h1020-rw",
       "imageHint": "jantar mantar"
     },
     {
       "id": "attraction-agrasen-ki-baoli",
-      "description": "A 60-meter long and 15-meter wide historical stepwell.",
+      "description": "A 60-meter long and 15-meter wide historical stepwell on Hailey Road, near Connaught Place.",
       "imageUrl": "https://images.unsplash.com/photo-1616161439281-22e353683884?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBZ3Jhc2VuJTIwa2klMjBCYW9saXxlbnwwfHx8fDE3MjE4OTc1ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "agrasen ki baoli"
     }
