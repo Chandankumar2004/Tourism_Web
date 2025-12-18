@@ -75,11 +75,6 @@ export const FOODS = [
         description: "Explore the culinary heart of Delhi with centuries-old recipes and bustling food lanes.",
     },
     {
-        id: "food-kebabs",
-        title: "Kebabs",
-        description: "Succulent pieces of marinated meat, grilled to perfection on skewers. A Mughlai delicacy."
-    },
-    {
         id: "food-biryani",
         title: "Biryani",
         description: "A fragrant rice dish made with spices, meat or vegetables. A complete meal in itself."

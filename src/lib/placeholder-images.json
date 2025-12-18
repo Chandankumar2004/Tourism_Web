@@ -55,24 +55,6 @@
       "imageHint": "akshardham temple"
     },
     {
-      "id": "attraction-jantar-mantar",
-      "description": "The astronomical instruments at Jantar Mantar.",
-      "imageUrl": "https://images.unsplash.com/photo-1579201991475-a6a660a2c5a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxqYW50YXIlMjBtYW50YXIlMjBkZWxoaXxlbnwwfHx8fDE3NjYyMjg1OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "jantar mantar"
-    },
-    {
-      "id": "attraction-agrasen-ki-baoli",
-      "description": "A different perspective of the Agrasen ki Baoli stepwell.",
-      "imageUrl": "https://images.unsplash.com/photo-1616110034376-79c8034a75e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhZ3Jhc2VuJTIwa2klMjBiYW9saXxlbnwwfHx8fDE3NjYyMjg0NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "agrasen baoli"
-    },
-    {
-      "id": "attraction-national-museum",
-      "description": "Exhibits inside the National Museum in New Delhi.",
-      "imageUrl": "https://images.unsplash.com/photo-1621295758833-286a5b03c448?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxuYXRpb25hbCUyMG11c2V1bSUyMGRlbGhpfGVufDB8fHx8MTc2NjIyODY2MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "museum exhibit"
-    },
-    {
       "id": "food-chaat",
       "description": "A plate of spicy and savory chaat",
       "imageUrl": "https://images.unsplash.com/photo-1601050690597-df0568f70950?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxpbmRpYW4lMjBmb29kfGVufDB8fHx8MTc2NjAzMTU2MXww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -81,7 +63,7 @@
     {
       "id": "food-parathas",
       "description": "Stack of delicious Indian paratha bread.",
-      "imageUrl": "https://images.unsplash.com/photo-1598493132219-75f68b3d11e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwYXJhdGhhfGVufDB8fHx8MTc2NjE0NDMxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1678588143924-f7b5635956a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwYXJhdGhhfGVufDB8fHx8MTc2NjYxNzM4NHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "paratha bread"
     },
     {
@@ -99,7 +81,7 @@
     {
       "id": "food-chole-bhature",
       "description": "A serving of authentic chole bhature.",
-      "imageUrl": "https://images.unsplash.com/photo-1625343465717-334a2608ab6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjaG9sZSUyMGJoYXR1cmV8ZW58MHx8fHwxNzY2MTQ0NTYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1606495111394-b65c3694086e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjaG9sZSUyMGJoYXR1cmV8ZW58MHx8fHwxNzY2NjE3NDUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "chole bhature"
     },
     {
@@ -107,12 +89,6 @@
       "description": "Colorful sticks of Kulfi ice cream",
       "imageUrl": "https://images.unsplash.com/photo-1643509324853-f3bfe07bf670?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxrdWxmaSUyMGljZWNyZWFtfGVufDB8fHx8MTc2NjA0NjQ2MXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "kulfi icecream"
-    },
-    {
-      "id": "food-kebabs",
-      "description": "Juicy grilled kebabs on a skewer",
-      "imageUrl": "https://images.unsplash.com/photo-1599452140131-b0a23e800d14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBrZWJhYnN8ZW58MHx8fHwxNzY2MDQzMzE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "indian kebabs"
     },
     {
       "id": "food-biryani",
