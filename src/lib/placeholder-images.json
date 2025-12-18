@@ -1,3 +1,118 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-india-gate",
+      "description": "India Gate at dusk",
+      "imageUrl": "https://images.unsplash.com/photo-1587474260584-136574528ed5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYSUyMGdhdGV8ZW58MHx8fHwxNzY2MDQzMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "india gate"
+    },
+    {
+      "id": "hero-rashtrapati-bhavan",
+      "description": "Rashtrapati Bhavan presidential palace",
+      "imageUrl": "https://images.unsplash.com/photo-1666175716564-94ee3375fddf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyYXNodHJhcGF0aSUyMGJoYXZhbnxlbnwwfHx8fDE3NjYwNDMzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rashtrapati bhavan"
+    },
+    {
+      "id": "hero-skyline",
+      "description": "Modern Delhi city skyline",
+      "imageUrl": "https://images.unsplash.com/photo-1688306141976-0a8ef8c3f585?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkZWxoaSUyMHNreWxpbmV8ZW58MHx8fHwxNzY2MDQzMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "delhi skyline"
+    },
+    {
+      "id": "attraction-india-gate",
+      "description": "Close-up of India Gate",
+      "imageUrl": "https://images.unsplash.com/photo-1665558646240-b2190160c400?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpbmRpYSUyMGdhdGV8ZW58MHx8fHwxNzY2MDQzMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "india gate"
+    },
+    {
+      "id": "attraction-qutub-minar",
+      "description": "The tall Qutub Minar tower",
+      "imageUrl": "https://images.unsplash.com/photo-1632426237957-5ea14aae7100?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxxdXR1YiUyMG1pbmFyfGVufDB8fHx8MTc2NjA0MzMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "qutub minar"
+    },
+    {
+      "id": "attraction-red-fort",
+      "description": "The majestic Red Fort",
+      "imageUrl": "https://images.unsplash.com/photo-1668885309462-89da4b87c930?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyZWQlMjBmb3J0fGVufDB8fHx8MTc2NTk5MzgxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "red fort"
+    },
+    {
+      "id": "attraction-lotus-temple",
+      "description": "The flower-shaped Lotus Temple",
+      "imageUrl": "https://images.unsplash.com/photo-1669873939341-9d34c6434c56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsb3R1cyUyMHRlbXBsZXxlbnwwfHx8fDE3NjYwNDMzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lotus temple"
+    },
+    {
+      "id": "attraction-humayuns-tomb",
+      "description": "The grand Humayun's Tomb",
+      "imageUrl": "https://images.unsplash.com/photo-1736867612054-8e479ef83028?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxodW1heXVuJTIwdG9tYnxlbnwwfHx8fDE3NjYwNDMzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "humayun tomb"
+    },
+    {
+      "id": "food-chaat",
+      "description": "A plate of spicy and savory chaat",
+      "imageUrl": "https://images.unsplash.com/photo-1601050690597-df0568f70950?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxpbmRpYW4lMjBmb29kfGVufDB8fHx8MTc2NjAzMTU2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian food"
+    },
+    {
+      "id": "food-parathas",
+      "description": "Freshly made parathas",
+      "imageUrl": "https://images.unsplash.com/photo-1600871648600-89dd8d71f2d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBicmVhZHxlbnwwfHx8fDE3NjU5OTUxMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian bread"
+    },
+    {
+      "id": "food-butter-chicken",
+      "description": "A rich bowl of butter chicken",
+      "imageUrl": "https://images.unsplash.com/photo-1710091691802-7dedb8af9a77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBjdXJyeXxlbnwwfHx8fDE3NjU5NjM2ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian curry"
+    },
+    {
+      "id": "food-old-delhi",
+      "description": "Busy food street in Old Delhi",
+      "imageUrl": "https://images.unsplash.com/photo-1713691132931-1cc66e362cdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZWxoaSUyMG1hcmtldHxlbnwwfHx8fDE3NjYwNDMzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "delhi market"
+    },
+    {
+      "id": "market-chandni-chowk",
+      "description": "A crowded street in Chandni Chowk",
+      "imageUrl": "https://images.unsplash.com/photo-1713691132931-1cc66e362cdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZWxoaSUyMG1hcmtldHxlbnwwfHx8fDE3NjYwNDMzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "delhi market"
+    },
+    {
+      "id": "market-connaught-place",
+      "description": "The colonial architecture of Connaught Place",
+      "imageUrl": "https://images.unsplash.com/photo-1660546538190-8781af162505?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb25uYXVnaHQlMjBwbGFjZXxlbnwwfHx8fDE3NjYwNDMzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "connaught place"
+    },
+    {
+      "id": "market-dilli-haat",
+      "description": "Handicrafts at Dilli Haat",
+      "imageUrl": "https://images.unsplash.com/photo-1752297306048-85a80e0e9a62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxpbmRpYW4lMjBjcmFmdHN8ZW58MHx8fHwxNzY2MDQzMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian crafts"
+    },
+    {
+      "id": "culture-mughal",
+      "description": "Intricate Mughal architecture details",
+      "imageUrl": "https://picsum.photos/seed/501/800/600",
+      "imageHint": "mughal architecture"
+    },
+    {
+      "id": "culture-british",
+      "description": "British colonial-era building in Delhi",
+      "imageUrl": "https://images.unsplash.com/photo-1675809605902-f7229027aa8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb2xvbmlhbCUyMGFyY2hpdGVjdHVyZXxlbnwwfHx8fDE3NjYwNDMzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "colonial architecture"
+    },
+    {
+      "id": "culture-museum",
+      "description": "Inside a museum in Delhi",
+      "imageUrl": "https://images.unsplash.com/photo-1737642256355-af3ecc10c5da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtdXNldW0lMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjU5NTExOTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "museum interior"
+    },
+    {
+      "id": "culture-festival",
+      "description": "People celebrating a festival in Delhi",
+      "imageUrl": "https://images.unsplash.com/photo-1553334490-011441d86dbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpbmRpYW4lMjBmZXN0aXZhbHxlbnwwfHx8fDE3NjU5ODI1MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian festival"
+    }
+  ]
 }

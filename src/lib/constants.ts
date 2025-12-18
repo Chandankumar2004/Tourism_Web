@@ -1,0 +1,102 @@
+export const NAV_LINKS = [
+  { href: "/", label: "Home" },
+  { href: "/explore", label: "Explore Delhi" },
+  { href: "/about", label: "About" },
+];
+
+export const MONTHS = [
+  "January", "February", "March", "April", "May", "June", 
+  "July", "August", "September", "October", "November", "December"
+];
+
+export const ATTRACTIONS = [
+  {
+    id: "attraction-india-gate",
+    title: "India Gate",
+    description: "A war memorial for 84,000 soldiers of the British Indian Army who died in the First World War.",
+  },
+  {
+    id: "attraction-qutub-minar",
+    title: "Qutub Minar",
+    description: "A minaret and 'victory tower' that forms part of the Qutb complex, a UNESCO World Heritage Site.",
+  },
+  {
+    id: "attraction-red-fort",
+    title: "Red Fort",
+    description: "A historic fort in Old Delhi that served as the main residence of the Mughal Emperors.",
+  },
+  {
+    id: "attraction-lotus-temple",
+    title: "Lotus Temple",
+    description: "A Baháʼí House of Worship, notable for its flowerlike shape, it has become a prominent attraction.",
+  },
+  {
+    id: "attraction-humayuns-tomb",
+    title: "Humayun's Tomb",
+    description: "The tomb of the Mughal Emperor Humayun, it was the first garden-tomb on the Indian subcontinent.",
+  },
+];
+
+export const FOODS = [
+    {
+        id: "food-chaat",
+        title: "Chaat",
+        description: "A savory snack, typically served as an hors d'oeuvre at roadside tracks from stalls or food carts.",
+    },
+    {
+        id: "food-parathas",
+        title: "Parathas",
+        description: "An Indian flatbread native to the Indian subcontinent, prevalent throughout the modern-day nations of India.",
+    },
+    {
+        id: "food-butter-chicken",
+        title: "Butter Chicken",
+        description: "A type of curry made from chicken with a spiced tomato and butter (makhan) sauce.",
+    },
+    {
+        id: "food-old-delhi",
+        title: "Old Delhi's Cuisine",
+        description: "Explore the culinary heart of Delhi with centuries-old recipes and bustling food lanes.",
+    }
+];
+
+export const MARKETS = [
+    {
+        id: "market-chandni-chowk",
+        title: "Chandni Chowk",
+        description: "One of the oldest and busiest markets in Old Delhi, famous for its narrow lanes and wholesale goods.",
+    },
+    {
+        id: "market-connaught-place",
+        title: "Connaught Place",
+        description: "A financial, commercial and business centre in New Delhi, with its iconic Georgian architecture.",
+    },
+    {
+        id: "market-dilli-haat",
+        title: "Dilli Haat",
+        description: "An open-air food plaza and craft bazaar, offering a glimpse of India's diverse culture and cuisine.",
+    }
+];
+
+export const CULTURE_TOPICS = [
+    {
+        id: "culture-mughal",
+        title: "Mughal Influence",
+        description: "Delhi's architecture, cuisine, and culture are deeply shaped by the Mughal dynasty. Landmarks like the Red Fort and Humayun's Tomb showcase their opulent style, while dishes like biryani and kebabs are a lasting culinary legacy."
+    },
+    {
+        id: "culture-british",
+        title: "British Colonial Architecture",
+        description: "The British Raj left an indelible mark on Delhi, designing the central administrative area of the city. The grand buildings of Lutyens' Delhi, including Rashtrapati Bhavan and the Secretariat, are prime examples of this era's architectural vision."
+    },
+    {
+        id: "culture-museum",
+        title: "Museums & Art Galleries",
+        description: "Delhi is a treasure trove for art and history lovers. The National Museum, National Rail Museum, and the National Gallery of Modern Art are just a few institutions that preserve and celebrate India's rich heritage."
+    },
+    {
+        id: "culture-festival",
+        title: "Festivals & Lifestyle",
+        description: "Life in Delhi is a vibrant celebration. The city comes alive during festivals like Diwali, Holi, and Eid. Its cosmopolitan lifestyle blends traditional values with modern aspirations, creating a unique cultural fabric."
+    }
+]
