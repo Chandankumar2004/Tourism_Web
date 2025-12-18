@@ -4,7 +4,7 @@ import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { InfoCard } from "@/components/explore/info-card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { ATTRACTIONS, FOODS, MARKETS, CULTURE_TOPICS } from "@/lib/constants";
+import { ATTRACTIONS, FOODS, MARKETS, CULTURE_TOPICS, DELHI_METRO_STATIONS } from "@/lib/constants";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import Image from "next/image";
 import Link from 'next/link';
@@ -23,7 +23,8 @@ const travelTips = [
   {
     icon: <TramFront className="w-6 h-6 text-primary" />,
     title: "Delhi Metro Guide",
-    content: "The Delhi Metro is a fast, cheap, and air-conditioned way to travel. Get a Smart Card for easy tap-and-go access and discounts on fares."
+    content: "The Delhi Metro is a fast, cheap, and air-conditioned way to travel. Get a Smart Card for easy tap-and-go access and discounts on fares.",
+    href: "/metro-guide"
   },
   {
     icon: <ShieldCheck className="w-6 h-6 text-primary" />,

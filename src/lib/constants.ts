@@ -2,6 +2,7 @@
 export const NAV_LINKS = [
   { href: "/", label: "Home" },
   { href: "/explore", label: "Explore Delhi" },
+  { href: "/metro-guide", label: "Metro Guide" },
   { href: "/about", label: "About" },
 ];
 
@@ -145,4 +146,27 @@ export const CULTURE_TOPICS = [
         title: "Festivals & Lifestyle",
         description: "Life in Delhi is a vibrant celebration. The city comes alive during festivals like Diwali, Holi, and Eid. Its cosmopolitan lifestyle blends traditional values with modern aspirations, creating a unique cultural fabric."
     }
-]
+];
+
+export const DELHI_METRO_STATIONS = [
+  "Rajiv Chowk",
+  "Kashmere Gate",
+  "Central Secretariat",
+  "New Delhi",
+  "Chandni Chowk",
+  "Hauz Khas",
+  "INA",
+  "AIIMS",
+  "Qutab Minar",
+  "Akshardham",
+  "Mandi House",
+  "Lajpat Nagar",
+  "Karol Bagh",
+  "Netaji Subhash Place",
+  "Saket",
+  "Nehru Place",
+  "Kalkaji Mandir",
+  "Botanical Garden",
+  "Indraprastha",
+  "Pragati Maidan"
+];
