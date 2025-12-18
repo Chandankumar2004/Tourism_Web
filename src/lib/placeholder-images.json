@@ -57,19 +57,19 @@
     {
       "id": "attraction-jantar-mantar",
       "description": "Jantar Mantar astronomical observatory in Delhi.",
-      "imageUrl": "https://images.unsplash.com/photo-1615598818204-399997127e2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxqYW50YXIlMjBtYW50YXIlMjBkZWxoaXxlbnwwfHx8fDE3NjYwNDMzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1630555464837-e1279432b898?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxqYW50YXIlMjBtYW50YXJ8ZW58MHx8fHwxNzY2MDQ3MjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "jantar mantar"
     },
     {
       "id": "attraction-agrasen-ki-baoli",
       "description": "Agrasen ki Baoli, a historical stepwell in Delhi.",
-      "imageUrl": "https://images.unsplash.com/photo-1620760431696-3c7ebc8c9462?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhZ3Jhc2VuJTIwa2klMjBiYW9saSUyMGRlbGhpfGVufDB8fHx8MTc2NjA0MzMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1677643096169-a9d1ab886510?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhZ3Jhc2VuJTIwYmFvbGl8ZW58MHx8fHwxNzY2MDQ3MjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "agrasen baoli"
     },
     {
       "id": "attraction-national-museum",
       "description": "Artifacts on display at the National Museum, Delhi.",
-      "imageUrl": "https://images.unsplash.com/photo-1543398337-a8785e04314c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYXRpb25hbCUyMG11c2V1bSUyMGRlbGhpfGVufDB8fHx8MTc2NjA0MzMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1660486698195-e27f40a7b6ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYXRpb25hbCUyMG11c2V1bXxlbnwwfHx8fDE3NjYwNDcyMzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "national museum"
     },
     {
