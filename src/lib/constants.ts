@@ -40,21 +40,6 @@ export const ATTRACTIONS = [
     id: "attraction-akshardham-temple",
     title: "Akshardham Temple",
     description: "A spiritual-cultural campus dedicated to devotion, learning, and harmony, with stunning architecture."
-  },
-  {
-    id: "attraction-jantar-mantar",
-    title: "Jantar Mantar",
-    description: "An equinoctial sundial and astronomical observatory, featuring a collection of 13 architectural astronomy instruments.",
-  },
-  {
-    id: "attraction-agrasen-ki-baoli",
-    title: "Agrasen ki Baoli",
-    description: "A protected monument, this ancient stepwell consists of 108 steps and a series of arched niches.",
-  },
-  {
-    id: "attraction-national-museum",
-    title: "National Museum",
-    description: "One of India's largest museums, holding a variety of articles from the pre-historic era to modern works of art.",
   }
 ];
 
