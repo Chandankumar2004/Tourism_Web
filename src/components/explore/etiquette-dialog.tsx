@@ -10,10 +10,21 @@ import {
   AlertDialogFooter,
   AlertDialogCancel
 } from "@/components/ui/alert-dialog";
-import { Card, CardContent, CardHeader, CardTitle, Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/card";
-import { ShoppingBag, CheckCircle2 } from "lucide-react";
-import Image from "next/image";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { ShoppingBag, CheckCircle2, Hand, Shirt } from "lucide-react";
+
+const greetingTips = [
+  "A simple 'Namaste' with palms pressed together and a slight bow is a respectful traditional greeting for hello and goodbye.",
+  "It is generally used when greeting elders or in formal situations. A simple 'Hello' or 'Hi' is fine among peers.",
+  "When shaking hands (more common in business settings), it is customary to wait for a woman to extend her hand first."
+];
+
+const dressTips = [
+    "When visiting religious sites (temples, mosques, gurdwaras), cover your shoulders, legs, and head as a sign of respect.",
+    "Loose, breathable fabrics like cotton and linen are recommended, especially in hot weather.",
+    "While modern clothing is common in urban areas, overly revealing outfits may attract unwanted attention.",
+    "Carry a scarf or shawl; it's versatile for covering up when needed."
+];
 
 const bargainingTips = [
   "Start by offering about 50% of the asking price and negotiate from there.",
@@ -32,8 +43,6 @@ interface EtiquetteDialogProps {
 }
 
 export function EtiquetteDialog({ tip }: EtiquetteDialogProps) {
-  const namasteImg = PlaceHolderImages.find(p => p.id === 'etiquette-namaste');
-  const dressImages = PlaceHolderImages.filter(p => p.id.startsWith('etiquette-dress-'));
 
   return (
     <AlertDialog>
@@ -50,7 +59,7 @@ export function EtiquetteDialog({ tip }: EtiquetteDialogProps) {
           </Card>
         </div>
       </AlertDialogTrigger>
-      <AlertDialogContent className="max-w-3xl">
+      <AlertDialogContent className="max-w-xl">
         <AlertDialogHeader>
           <AlertDialogTitle className="font-headline text-2xl flex items-center gap-3">
             <div className="bg-primary/10 p-2 rounded-full">{tip.icon}</div>
@@ -61,36 +70,37 @@ export function EtiquetteDialog({ tip }: EtiquetteDialogProps) {
           </AlertDialogDescription>
         </AlertDialogHeader>
         <div className="max-h-[60vh] overflow-y-auto pr-6 space-y-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-            {namasteImg && (
-              <div className="space-y-3">
-                <h4 className="font-headline text-lg font-semibold text-foreground">The 'Namaste' Greeting</h4>
-                <Image src={namasteImg.imageUrl} alt={namasteImg.description} data-ai-hint={namasteImg.imageHint} width={400} height={300} className="rounded-lg shadow-md object-cover" />
-                <p className="text-sm text-muted-foreground">A simple 'Namaste' with palms pressed together and a slight bow is a respectful traditional greeting for both hello and goodbye.</p>
-              </div>
-            )}
-            <div className="space-y-3">
-                <h4 className="font-headline text-lg font-semibold text-foreground">Dressing Modestly</h4>
-                 <Carousel className="w-full max-w-sm mx-auto">
-                  <CarouselContent>
-                    {dressImages.map((image) => (
-                      <CarouselItem key={image.id}>
-                        <div className="p-1">
-                          <Card className="overflow-hidden">
-                            <CardContent className="flex aspect-square items-center justify-center p-0">
-                               <Image src={image.imageUrl} alt={image.description} data-ai-hint={image.imageHint} width={400} height={400} className="rounded-lg shadow-md object-cover w-full h-full" />
-                            </CardContent>
-                          </Card>
-                        </div>
-                      </CarouselItem>
-                    ))}
-                  </CarouselContent>
-                  <CarouselPrevious />
-                  <CarouselNext />
-                </Carousel>
-                <p className="text-sm text-muted-foreground text-center">Especially when visiting religious sites, it's respectful to cover your shoulders and knees. Loose-fitting clothing is also more comfortable in the climate.</p>
-              </div>
+          
+          <div>
+            <h4 className="font-headline text-lg font-semibold text-foreground flex items-center gap-2 mb-3">
+              <Hand className="w-5 h-5 text-primary" />
+              Greeting Etiquette
+            </h4>
+             <ul className="space-y-3">
+              {greetingTips.map((point, index) => (
+                <li key={index} className="flex items-start gap-3">
+                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 shrink-0" />
+                  <span className="text-foreground/90 text-sm">{point}</span>
+                </li>
+              ))}
+            </ul>
           </div>
+          
+          <div>
+            <h4 className="font-headline text-lg font-semibold text-foreground flex items-center gap-2 mb-3">
+              <Shirt className="w-5 h-5 text-primary" />
+              Dressing Modestly
+            </h4>
+             <ul className="space-y-3">
+              {dressTips.map((point, index) => (
+                <li key={index} className="flex items-start gap-3">
+                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 shrink-0" />
+                  <span className="text-foreground/90 text-sm">{point}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
           <div>
             <h4 className="font-headline text-lg font-semibold text-foreground flex items-center gap-2 mb-3">
               <ShoppingBag className="w-5 h-5 text-primary" />
