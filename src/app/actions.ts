@@ -35,7 +35,7 @@ export async function getTravelRecommendations(prevState: RecommendationState, f
     const result = await personalizedTravelRecommendations(validatedFields.data);
     return {
       message: 'success',
-      recommendations: result.recommendations,
+      recommendations: result,
       errors: null,
     };
   } catch (error) {

@@ -8,7 +8,6 @@
  *
  * @exports {personalizedTravelRecommendations} - An async function that returns personalized travel recommendations.
  * @exports {PersonalizedTravelRecommendationsInput} - The input type for the personalizedTravelRecommendations function.
- * @exports {PersonalizedTravelRecommendationsOutput} - The output type for the personalizedTravelRecommendations function.
  */
 
 import {ai} from '@/ai/genkit';
@@ -20,21 +19,16 @@ const PersonalizedTravelRecommendationsInputSchema = z.object({
 });
 export type PersonalizedTravelRecommendationsInput = z.infer<typeof PersonalizedTravelRecommendationsInputSchema>;
 
-const PersonalizedTravelRecommendationsOutputSchema = z.object({
-  recommendations: z.string().describe('A list of 3 to 4 personalized travel recommendations for New Delhi, formatted as a markdown list of bullet points.'),
-});
-export type PersonalizedTravelRecommendationsOutput = z.infer<typeof PersonalizedTravelRecommendationsOutputSchema>;
-
 export async function personalizedTravelRecommendations(
   input: PersonalizedTravelRecommendationsInput
-): Promise<PersonalizedTravelRecommendationsOutput> {
-  return personalizedTravelRecommendationsFlow(input);
+): Promise<string> {
+  const result = await personalizedTravelRecommendationsFlow(input);
+  return result;
 }
 
 const personalizedTravelRecommendationsPrompt = ai.definePrompt({
   name: 'personalizedTravelRecommendationsPrompt',
   input: {schema: PersonalizedTravelRecommendationsInputSchema},
-  output: {schema: PersonalizedTravelRecommendationsOutputSchema},
   prompt: `You are an expert travel guide for New Delhi, India. A tourist is planning a visit and wants personalized recommendations based on the time of year and their interests.
 
   It is currently {{month}}.
@@ -49,10 +43,10 @@ const personalizedTravelRecommendationsFlow = ai.defineFlow(
   {
     name: 'personalizedTravelRecommendationsFlow',
     inputSchema: PersonalizedTravelRecommendationsInputSchema,
-    outputSchema: PersonalizedTravelRecommendationsOutputSchema,
+    outputSchema: z.string(),
   },
   async input => {
-    const {output} = await personalizedTravelRecommendationsPrompt(input);
-    return output!;
+    const llmResponse = await personalizedTravelRecommendationsPrompt(input);
+    return llmResponse.text;
   }
 );
