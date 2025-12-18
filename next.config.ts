@@ -58,6 +58,12 @@ const nextConfig: NextConfig = {
         hostname: 'www.triphippies.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'media3.thrillophilia.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
@@ -68,3 +74,4 @@ export default nextConfig;
     
 
     
+
