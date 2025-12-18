@@ -16,12 +16,12 @@ import {z} from 'genkit';
 
 const PersonalizedTravelRecommendationsInputSchema = z.object({
   month: z.string().describe('The month of the year for the planned visit (e.g., January, February).'),
-  interests: z.string().describe('A comma-separated list of the tourist\u2019s interests (e.g., history, food, shopping).'),
+  interests: z.string().describe('A comma-separated list of the tourist’s interests (e.g., history, food, shopping).'),
 });
 export type PersonalizedTravelRecommendationsInput = z.infer<typeof PersonalizedTravelRecommendationsInputSchema>;
 
 const PersonalizedTravelRecommendationsOutputSchema = z.object({
-  recommendations: z.string().describe('A list of personalized travel recommendations for New Delhi, formatted as bullet points.'),
+  recommendations: z.string().describe('A list of 3 to 4 personalized travel recommendations for New Delhi, formatted as bullet points.'),
 });
 export type PersonalizedTravelRecommendationsOutput = z.infer<typeof PersonalizedTravelRecommendationsOutputSchema>;
 
@@ -41,7 +41,7 @@ const personalizedTravelRecommendationsPrompt = ai.definePrompt({
 
   The tourist is interested in: {{interests}}
 
-  Provide a detailed list of recommendations, including specific places to visit, cuisines to explore, and experiences to enjoy. Consider any relevant holidays, festivals, or events happening during this time of year. Format the output as a list of bullet points (using markdown).
+  Provide a concise list of 3 to 4 recommendations, including specific places to visit, cuisines to explore, and experiences to enjoy. Consider any relevant holidays, festivals, or events happening during this time of year. Format the output as a list of bullet points (using markdown).
 `,
 });
 
