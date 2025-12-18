@@ -52,6 +52,12 @@ const nextConfig: NextConfig = {
         hostname: 'sceneloc8.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.triphippies.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
